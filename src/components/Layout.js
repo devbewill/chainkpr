@@ -1,12 +1,12 @@
-import SwitchTheme from "./SwitchTheme";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <div className="flex justify-center p-4 h-screen">
-        <SwitchTheme />
-      </div>
+      <Navbar></Navbar>
       {children}
+      <Footer></Footer>
     </div>
   );
 };

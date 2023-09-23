@@ -1,4 +1,12 @@
 import Head from "next/head";
+import Layout from "@/components/Layout";
+import Hero from "@/components/Hero";
+import PartnersLogos from "@/components/PartnersLogos";
+import HowWorks from "@/components/HowWorks";
+import Features from "@/components/Features";
+import Faq from "@/components/Faq";
+import Industries from "@/components/Industries";
+import Needs from "@/components/Needs";
 
 export default function Home() {
   return (
@@ -9,6 +17,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Layout>
+        <Hero></Hero>
+        <PartnersLogos></PartnersLogos>
+        <Features></Features>
+        <Needs></Needs>
+        <HowWorks></HowWorks>
+        <Faq></Faq>
+        <Industries></Industries>
+      </Layout>
     </>
   );
 }
