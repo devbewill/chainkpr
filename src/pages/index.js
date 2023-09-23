@@ -3,10 +3,10 @@ import Layout from "@/components/Layout";
 import Hero from "@/components/Hero";
 import PartnersLogos from "@/components/PartnersLogos";
 import HowWorks from "@/components/HowWorks";
-import Features from "@/components/Features";
+import Context from "@/components/Context";
 import Faq from "@/components/Faq";
+import Benefits from "@/components/Benefits";
 import Industries from "@/components/Industries";
-import Needs from "@/components/Needs";
 
 export default function Home() {
   return (
@@ -21,11 +21,11 @@ export default function Home() {
       <Layout>
         <Hero></Hero>
         <PartnersLogos></PartnersLogos>
-        <Features></Features>
-        <Needs></Needs>
+        <Context></Context>
+        <Industries></Industries>
         <HowWorks></HowWorks>
         <Faq></Faq>
-        <Industries></Industries>
+        <Benefits></Benefits>
       </Layout>
     </>
   );
