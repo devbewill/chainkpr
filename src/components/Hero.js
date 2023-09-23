@@ -16,17 +16,32 @@ export default function Hero() {
             />
           </div>
           <div className="pt-10">
-            <div className="mb-10 flex justify-center">
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                Digital passport ready.
-                <a href="#" className="pl-1 font-semibold text-indigo-600">
-                  <span className="absolute inset-0" aria-hidden="true" />
-                  Read more <span aria-hidden="true">&rarr;</span>
-                </a>
-              </div>
-            </div>
             <div className="max-w-7xl mx-auto">
-              <h1 className="mr-0 ml-auto text-4xl font-extrabold tracking-tight text-gray-900 md:text-right md:text-8xl uppercase max-w-6xl">
+              <a
+                href="#"
+                className=" inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                role="alert"
+              >
+                <span class="text-xs bg-pink-500 rounded-full text-white px-4 py-1.5 mr-3">
+                  New
+                </span>{" "}
+                <span class="text-sm font-medium">
+                  Ready for Digital Passport
+                </span>
+                <svg
+                  class="ml-2 w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+              <h1 className="mr-0 ml-auto text-4xl font-extrabold tracking-tight text-gray-900 md:text-right lg:text-[5.5rem] lg:leading-none uppercase max-w-6xl">
                 <span className="block text-gray-300">datome</span>
                 Unlock real-time process control with blockchain
               </h1>
@@ -38,7 +53,7 @@ export default function Hero() {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
                 >
                   Try now for free
                 </a>
