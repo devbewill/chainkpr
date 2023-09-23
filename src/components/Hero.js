@@ -15,8 +15,8 @@ export default function Hero() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-2xl pt-32 sm:pt-48 lg:pt-56">
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+          <div className="pt-10">
+            <div className="mb-10 flex justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Digital passport ready.
                 <a href="#" className="pl-1 font-semibold text-indigo-600">
@@ -25,11 +25,12 @@ export default function Hero() {
                 </a>
               </div>
             </div>
-            <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <div className="max-w-7xl mx-auto">
+              <h1 className="mr-0 ml-auto text-4xl font-extrabold tracking-tight text-gray-900 md:text-right md:text-8xl uppercase max-w-6xl">
+                <span className="block text-gray-300">datome</span>
                 Unlock real-time process control with blockchain
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-10 text-xl leading-8 max-w-2xl text-gray-600">
                 Datome brings transparency, traceability, and regulatory
                 compliance to your enterprise operations, all without requiring
                 a background in blockchain technology.
@@ -39,13 +40,13 @@ export default function Hero() {
                   href="#"
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Get started
+                  Try now for free
                 </a>
                 <a
                   href="#"
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
-                  Learn more <span aria-hidden="true">→</span>
+                  Book a demo <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
