@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero pb-10">
       <div className="bg-white">
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div
@@ -16,18 +16,16 @@ export default function Hero() {
             />
           </div>
           <div className="pt-10">
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto mt-5 lg:mt-20 text-center">
               <a
                 href="#"
-                className=" inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                className=" inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-xs text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                 role="alert"
               >
-                <span class="text-xs bg-pink-500 rounded-full text-white px-4 py-1.5 mr-3">
+                <span class=" bg-pink-500 rounded-full text-white px-3 py-1 mr-2">
                   New
-                </span>{" "}
-                <span class="text-sm font-medium">
-                  Ready for Digital Passport
                 </span>
+                <span class="font-medium">Digital Passport</span>
                 <svg
                   class="ml-2 w-5 h-5"
                   fill="currentColor"
@@ -41,11 +39,11 @@ export default function Hero() {
                   ></path>
                 </svg>
               </a>
-              <h1 className="mr-0 ml-auto text-4xl font-extrabold tracking-tight text-gray-900 md:text-right lg:text-[5.5rem] lg:leading-none uppercase max-w-6xl">
-                <span className="block text-gray-200">datome</span>
+              <h1 className="text-3xl  font-extrabold tracking-tight text-gray-900  lg:text-[5rem] lg:leading-none ">
+                {/* <span className="block text-gray-300">datome</span> */}
                 Unlock real-time process control with blockchain
               </h1>
-              <p className="mt-10 text-xl leading-8 max-w-2xl text-gray-600">
+              <p className="mx-auto mt-5 lg:text-2xl leading-6 max-w-3xl text-gray-500">
                 Datome brings transparency, traceability, and regulatory
                 compliance to your enterprise operations, all without requiring
                 a background in blockchain technology.

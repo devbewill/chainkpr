@@ -47,11 +47,11 @@ const industries = [
 ];
 export default function Context() {
   return (
-    <section className="context">
+    <section className="industries">
       <div className="overflow-hidden bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="lg:pr-8 lg:pt-4">
+            <div className="px-6 lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
                 <h2 className="text-base font-semibold leading-7 text-indigo-600">
                   Industries
@@ -66,11 +66,15 @@ export default function Context() {
                 </p>
               </div>
             </div>
-            <Flicking align="prev" circular={true}>
+            <Flicking
+              align="prev"
+              circular={true}
+              style={{ paddingLeft: "1.5rem" }}
+            >
               {industries.map((industry) => (
                 <div
                   key={industry.name}
-                  className="panel mx-3 w-80 rounded-xl bg-primary  p-6 shadow-sm "
+                  className="panel mx-3 w-64 lg:w-80 rounded-xl bg-primary  p-6 shadow-sm "
                 >
                   <dt className="text-base font-semibold leading-7 text-gray-900">
                     <div className="flex h-15 w-15">

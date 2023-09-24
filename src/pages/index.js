@@ -21,7 +21,7 @@ export default function Home() {
       <Layout>
         <Hero></Hero>
         <PartnersLogos></PartnersLogos>
-        <Quote></Quote>
+        {/* <Quote></Quote> */}
         <Context></Context>
         <Industries></Industries>
         <HowWorks></HowWorks>
