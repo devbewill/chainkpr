@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Hero from "@/components/Hero";
+import Quote from "@/components/Quote";
 import PartnersLogos from "@/components/PartnersLogos";
 import HowWorks from "@/components/HowWorks";
 import Context from "@/components/Context";
-import Faq from "@/components/Faq";
 import Benefits from "@/components/Benefits";
 import Industries from "@/components/Industries";
 
@@ -21,10 +21,10 @@ export default function Home() {
       <Layout>
         <Hero></Hero>
         <PartnersLogos></PartnersLogos>
+        <Quote></Quote>
         <Context></Context>
         <Industries></Industries>
         <HowWorks></HowWorks>
-        <Faq></Faq>
         <Benefits></Benefits>
       </Layout>
     </>

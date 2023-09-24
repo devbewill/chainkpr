@@ -7,7 +7,7 @@ import SwitchTheme from "./SwitchTheme";
 const navigation = [
   { name: "About", href: "#" },
   { name: "Use cases", href: "#" },
-  { name: "Faq", href: "#" },
+  { name: "Faq", href: "/faq" },
   { name: "Docs", href: "#" },
 ];
 

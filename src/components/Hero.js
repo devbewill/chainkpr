@@ -42,7 +42,7 @@ export default function Hero() {
                 </svg>
               </a>
               <h1 className="mr-0 ml-auto text-4xl font-extrabold tracking-tight text-gray-900 md:text-right lg:text-[5.5rem] lg:leading-none uppercase max-w-6xl">
-                <span className="block text-gray-300">datome</span>
+                <span className="block text-gray-200">datome</span>
                 Unlock real-time process control with blockchain
               </h1>
               <p className="mt-10 text-xl leading-8 max-w-2xl text-gray-600">

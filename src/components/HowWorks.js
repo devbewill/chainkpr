@@ -38,7 +38,7 @@ export default function HowWorks() {
     },
   ];
   return (
-    <section className="howWorks">
+    <section className="howWorks bg-slate-100">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="lg:pr-8 lg:pt-4">

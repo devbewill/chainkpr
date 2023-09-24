@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer class="p-4 bg-slate-200 sm:p-10 text-black">
+    <footer class="pt-20 pb-5 mt-40 bg-slate-100 text-black">
       <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0 lg:w-1/3">
