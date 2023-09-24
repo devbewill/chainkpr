@@ -39,7 +39,7 @@ export default function Benefits() {
 
   return (
     <section className="benefits">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl py-20 px-6 lg:px-8">
         <h2 className="text-base font-semibold leading-7 text-primary">
           Benefits
         </h2>
