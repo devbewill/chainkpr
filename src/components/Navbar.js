@@ -4,17 +4,17 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import SwitchTheme from "./SwitchTheme";
 
 const navigation = [
-  { name: "About", href: "#" },
+  { name: "About", href: "https://www.mangrovia.solutions/" },
   { name: "Use cases", href: "#" },
   { name: "Faq", href: "/faq" },
-  { name: "Docs", href: "#" },
+  { name: "Docs", href: "https://doc.datome.io/" },
 ];
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute max-w-7xl mx-auto inset-x-0 top-0 z-50">
+    <header className="absolute max-w-7xl mx-auto inset-x-0 top-2 z-50">
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
