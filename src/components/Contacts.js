@@ -7,7 +7,7 @@ export default function Contacts() {
             Are you ready to try now?
           </h1>
 
-          <p className="my-5 max-w-lg text-gray-600 ">
+          <p className="my-5 text-lg max-w-lg text-gray-600 ">
             Are you a developer? Enjoy a fully functional 30 days sandbox so you
             can test in self provisioning the features of Datome.
           </p>

@@ -24,9 +24,9 @@ export default function Context() {
               </div>
             </div>
             <img
-              src="./editor.jpg"
+              src="./reliability.jpg"
               alt="Product screenshot"
-              className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem] md:-ml-4 lg:-ml-0"
+              className="w-full max-w-lg border-4 border-black rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem] md:-ml-4 lg:-ml-0"
               width={1280}
               height={832}
             />

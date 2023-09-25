@@ -22,7 +22,7 @@ export default function HowWorks() {
       name: "Groups",
       description:
         "Users lives in a groups and can be legacy applications, human beings, IoT devices or even external organizations. For example, you can specify that only a certified manufacturer can create a drug pill, and only a licensed pharmacist can update its status to sold.",
-      image: "how4.png",
+      image: "how4.jpg",
     },
     {
       name: "Assets",
@@ -39,15 +39,19 @@ export default function HowWorks() {
   ];
   return (
     <section className="howWorks">
-      <div className="mx-auto max-w-screen-xl px-6 pt-20">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+      <div className="mx-auto max-w-screen-xl px-6 py-20">
+        <div className="flex">
           <div className="lg:pr-8 lg:pt-4">
-            <div className="lg:max-w-lg">
+            <div className="">
               <h2 className="text-base font-semibold leading-7 text-primary uppercase">
                 How magic happens
               </h2>
               <p className="my-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 How it works
+              </p>
+              <p className="my-5 text-lg text-gray-600 ">
+                With Datome your data management becomes effortless, allowing
+                you to stay within your domain comfort zone.
               </p>
             </div>
           </div>
@@ -56,7 +60,7 @@ export default function HowWorks() {
         {howworks.map((item, index) => (
           <div
             key={item.name}
-            className=" grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16"
+            className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 py-10"
           >
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
