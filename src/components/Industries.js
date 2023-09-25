@@ -48,7 +48,7 @@ const industries = [
 export default function Context() {
   return (
     <section className="industries">
-      <div className="overflow-hidden bg-purple-50 p-20">
+      <div className="overflow-hidden bg-purple-50 py-20">
         <div className=" lg:pl-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className=" mx-auto px-6 lg:pr-8 lg:max-w-xl lg:pt-4">
