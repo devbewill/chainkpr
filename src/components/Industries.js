@@ -53,7 +53,7 @@ export default function Context() {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="px-6 lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                <h2 className="font-semibold leading-7 text-primary uppercase">
                   Industries
                 </h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -74,12 +74,12 @@ export default function Context() {
               {industries.map((industry) => (
                 <div
                   key={industry.name}
-                  className="panel mx-3 w-64 lg:w-80 rounded-xl bg-primary  p-6 shadow-sm "
+                  className="panel mx-3 w-64 lg:w-80 rounded-xl bg-black  p-6 shadow-sm "
                 >
                   <dt className="text-base font-semibold leading-7 text-gray-900">
                     <div className="flex h-15 w-15">
                       <industry.icon
-                        className="h-10 w-10 text-white"
+                        className="h-10 w-10 text-primary"
                         aria-hidden="true"
                       />
                     </div>
