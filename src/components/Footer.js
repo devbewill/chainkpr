@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
-    <footer class="pt-20 px-6 pb-5 mt-20 bg-slate-100 text-black">
+    <footer class="pt-10 px-6 pb-5 bg-zinc-50 border-t text-gray-500">
       <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0 lg:w-1/3">
             <a href="./" class="flex items-center pb-5">
               <img
                 src="./datome.svg"
-                class="mr-01 h-10 fill-black"
+                class="mr-01 h-8 fill-black"
                 alt="datome Logo"
               />
             </a>
@@ -22,7 +22,7 @@ export default function Footer() {
               <h2 class="mb-6 text-sm font-semibold text-black uppercase ">
                 Sections
               </h2>
-              <ul class="text-black">
+              <ul class="text-gray-500">
                 <li class="mb-4">
                   <a href="" class="hover:underline">
                     About
@@ -49,7 +49,7 @@ export default function Footer() {
               <h2 class="mb-6 text-sm font-semibold text-black uppercase ">
                 Legal
               </h2>
-              <ul class="text-black">
+              <ul class="text-gray-500">
                 <li class="mb-4">
                   <a href="#" class="hover:underline">
                     Privacy Policy
@@ -64,7 +64,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-gray-600 sm:mx-auto  lg:my-8" />
+        <hr class="my-6sm:mx-auto  lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-black sm:text-center">
             © 2023{" "}

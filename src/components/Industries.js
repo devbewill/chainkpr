@@ -35,7 +35,7 @@ const industries = [
   {
     name: "Customer Relationship Management",
     description:
-      "Customize your CRM model to track customer interactions, sales pipelines, and support tickets, boosting customer satisfaction and retention.",
+      "Customize your CRM model to track sales pipelines, support tickets, boosting customer satisfaction and retention.",
     icon: ArrowPathIcon,
   },
   {
@@ -49,9 +49,9 @@ export default function Context() {
   return (
     <section className="industries">
       <div className="overflow-hidden bg-white py-20">
-        <div className="mx-auto max-w-7xl lg:px-8">
+        <div className=" lg:pl-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="px-6 lg:pr-8 lg:pt-4">
+            <div className=" mx-auto px-6 lg:pr-8 lg:max-w-xl lg:pt-4">
               <div className="lg:max-w-lg">
                 <h2 className="font-semibold leading-7 text-primary uppercase">
                   Industries
@@ -74,7 +74,7 @@ export default function Context() {
               {industries.map((industry) => (
                 <div
                   key={industry.name}
-                  className="panel mx-3 w-64 lg:w-80 rounded-xl bg-black  p-6 shadow-sm "
+                  className="panel relative mx-3 w-64 lg:w-80 rounded-xl bg-black  p-6 shadow-sm "
                 >
                   <dt className="text-base font-semibold leading-7 text-gray-900">
                     <div className="flex h-15 w-15">
@@ -83,11 +83,17 @@ export default function Context() {
                         aria-hidden="true"
                       />
                     </div>
-                    <p className="text-white mt-6 text-xl">{industry.name}</p>
+                    <p className="text-white mt-3 text-xl">{industry.name}</p>
                   </dt>
-                  <dd className="mt-2 text-base leading-6 text-gray-300">
+                  <dd className="mt-2 mb-6 text-base leading-6 text-gray-300">
                     {industry.description}
                   </dd>
+                  <a
+                    href="#"
+                    className="absolute bottom-4 text-white text-sm font-semibold leading-6 "
+                  >
+                    See more <span aria-hidden="true">→</span>
+                  </a>
                 </div>
               ))}
             </Flicking>

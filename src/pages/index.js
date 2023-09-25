@@ -7,6 +7,7 @@ import HowWorks from "@/components/HowWorks";
 import Context from "@/components/Context";
 import Benefits from "@/components/Benefits";
 import Industries from "@/components/Industries";
+import Contacts from "@/components/Contacts";
 
 export default function Home() {
   return (
@@ -23,9 +24,10 @@ export default function Home() {
         <PartnersLogos></PartnersLogos>
         {/* <Quote></Quote> */}
         <Context></Context>
-        <Industries></Industries>
         <HowWorks></HowWorks>
+        <Industries></Industries>
         <Benefits></Benefits>
+        <Contacts></Contacts>
       </Layout>
     </>
   );

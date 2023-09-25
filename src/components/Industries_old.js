@@ -75,6 +75,9 @@ export default function Target() {
                 <dd className="mt-2 text-base leading-7 text-gray-600">
                   {industry.description}
                 </dd>
+                <a href="#" className="text-sm font-semibold leading-6 ">
+                  Detail <span aria-hidden="true">→</span>
+                </a>
               </div>
             ))}
           </dl>
