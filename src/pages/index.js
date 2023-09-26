@@ -2,7 +2,7 @@ import Head from "next/head";
 import Announcement from "@/components/Announcement";
 import Layout from "@/components/Layout";
 import Hero from "@/components/Hero";
-import Quote from "@/components/Quote";
+import ProductInfo from "@/components/ProductInfo";
 import PartnersLogos from "@/components/PartnersLogos";
 import HowWorks from "@/components/HowWorks";
 import Context from "@/components/Context";
@@ -23,8 +23,8 @@ export default function Home() {
       <Layout>
         <Hero></Hero>
         <PartnersLogos></PartnersLogos>
-        {/* <Quote></Quote> */}
         <Context></Context>
+        <ProductInfo></ProductInfo>
         <HowWorks></HowWorks>
         <Industries></Industries>
         <Benefits></Benefits>

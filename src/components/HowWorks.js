@@ -64,7 +64,7 @@ export default function HowWorks() {
                 <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 lg:text-xl">
                   {item.name}
                 </p>
-                <p className="mt-3 text-lg leading-7 text-gray-600">
+                <p className="mt-3 text-md leading-6 md:text-lg md:leading-7 text-gray-600">
                   {item.description}
                 </p>
               </div>
