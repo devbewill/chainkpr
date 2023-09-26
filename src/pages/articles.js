@@ -38,7 +38,7 @@ function Articles({ articles }) {
           key={slug}
           className="border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col"
         >
-          <Link href={`/article/${slug}`} legacyBehaviour>
+          <a href={`/article/${slug}`} legacyBehaviour>
             <Image
               width={650}
               height={340}
@@ -47,7 +47,7 @@ function Articles({ articles }) {
             />
 
             <h1 className="p-4">{frontmatter.title}</h1>
-          </Link>
+          </a>
         </div>
       ))}
     </div>

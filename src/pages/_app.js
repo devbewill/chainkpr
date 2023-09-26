@@ -1,4 +1,4 @@
-import { League_Gothic, Inter } from "@next/font/google";
+import { League_Gothic, Inter } from "next/font/google";
 import "@/styles/globals.css";
 
 const leagueGothic = League_Gothic({

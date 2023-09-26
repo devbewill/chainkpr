@@ -16,14 +16,6 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 
-const navigation = [
-  { name: "About", href: "https://www.mangrovia.solutions/" },
-  { name: "Use cases", href: "#" },
-  { name: "Faq", href: "/faq" },
-  { name: "News", href: "/articles" },
-  { name: "Docs", href: "https://doc.datome.io/" },
-];
-
 const usecases = [
   {
     name: "Textile",
@@ -143,12 +135,12 @@ export default function Navbar() {
           >
             About us
           </a>
-          <a
+          {/* <a
             href="./articles"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Articles
-          </a>
+          </a> */}
           <a
             href="./faq"
             className="text-sm font-semibold leading-6 text-gray-900"
