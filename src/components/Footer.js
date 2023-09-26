@@ -1,44 +1,41 @@
 export default function Footer() {
   return (
-    <footer class="pt-10 px-6 pb-5 bg-secondary border-t text-gray-500">
+    <footer class="pt-10 px-6 pb-5 bg-white border-t text-gray-500">
       <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0 lg:w-1/3">
             <a href="./" class="flex items-center pb-5">
               <img
                 src="./datome.svg"
-                class="mr-01 h-8 fill-black"
+                class="mr-01 h-10 fill-black"
                 alt="datome Logo"
               />
             </a>
-            <p>Embed trust in your data and processes</p>
             <p className="pt-5">
-              Mangrovia Blockchain Solutions Srl <br></br>Corso Venezia 54{" "}
+              Mangrovia Blockchain Solutions <br></br>Corso Venezia 54
               <br></br>20121, Milano <br></br>VAT: IT10301800966
             </p>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-black uppercase ">
-                Sections
-              </h2>
+              <h2 class="mb-6 font-semibold text-black ">Sections</h2>
               <ul class="text-gray-500">
-                <li class="mb-4">
+                <li class="mb-3">
                   <a href="" class="hover:underline">
                     About
                   </a>
                 </li>
-                <li class="mb-4">
+                <li class="mb-2">
                   <a href="" class="hover:underline">
                     Use cases
                   </a>
                 </li>
-                <li class="mb-4">
+                <li class="mb-2">
                   <a href="/" class="hover:underline">
                     FAQ
                   </a>
                 </li>
-                <li class="mb-4">
+                <li class="mb-2">
                   <a href="/" class="hover:underline">
                     Docs
                   </a>
@@ -46,11 +43,9 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-black uppercase ">
-                Legal
-              </h2>
+              <h2 class="mb-6 font-semibold text-black ">Legal</h2>
               <ul class="text-gray-500">
-                <li class="mb-4">
+                <li class="mb-2">
                   <a href="#" class="hover:underline">
                     Privacy Policy
                   </a>

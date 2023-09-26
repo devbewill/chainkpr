@@ -25,7 +25,9 @@ export default function Hero() {
                 <span class=" bg-purple-200 rounded-full text-black px-3 py-1 mr-2">
                   New
                 </span>
-                <span class="font-medium">Digital Passport</span>
+                <span class="font-medium">
+                  Are you ready for Digital Passport?
+                </span>
                 <svg
                   class="ml-2 w-5 h-5"
                   fill="currentColor"
