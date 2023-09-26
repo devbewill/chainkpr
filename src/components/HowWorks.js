@@ -39,7 +39,7 @@ export default function HowWorks() {
   ];
   return (
     <section className="howWorks">
-      <div className="mx-auto max-w-screen-xl px-6 py-20">
+      <div className="mx-auto max-w-screen-xl px-6 py-10 lg:py-20">
         <div className="flex">
           <div className="lg:pr-8 lg:pt-4">
             <div className="">

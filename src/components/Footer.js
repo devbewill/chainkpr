@@ -59,7 +59,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr class="my-6sm:mx-auto  lg:my-8" />
+        <hr class="my-6 sm:mx-auto  lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-black sm:text-center">
             © 2023{" "}

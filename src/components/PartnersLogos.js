@@ -14,14 +14,14 @@ export default function PartnersLogos() {
             height={48}
           />
           <img
-            className="col-span-1 max-h-9 lg:max-h-8 w-full object-contain "
+            className="col-span-1 max-h-9 lg:max-h-12 w-full object-contain "
             src="./partners/ey.svg"
             alt="ey"
             width={158}
             height={48}
           />
           <img
-            className="col-span-1 max-h-9 lg:max-h-8 w-full object-contain"
+            className="col-span-1 max-h-9 lg:max-h-6 w-full object-contain"
             src="./partners/oracle.svg"
             alt="oracle"
             width={158}

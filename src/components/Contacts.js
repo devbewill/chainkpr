@@ -6,7 +6,7 @@ export default function Contacts() {
       <div className="lg:flex mx-auto max-w-screen-xl py-20 md:px-6 gap-10 ">
         {/* left */}
 
-        <div className=" lg:w-1/2  px-6 pb-10">
+        <div className=" lg:w-1/2  px-6 pb-10 border-r-2 border-gray-300">
           <h1 className="text-4xl font-bold text-black md:text-5xl">
             Are you ready to try now?
           </h1>
@@ -59,9 +59,9 @@ export default function Contacts() {
             </div>
             <button
               type="submit"
-              class="mt-10 rounded-md bg-black px-5 py-2 text-white"
+              class="mt-10 rounded-md bg-black px-5 py-2 text-white font-bold"
             >
-              Send Message
+              Start a trial
             </button>
           </form>
         </div>
