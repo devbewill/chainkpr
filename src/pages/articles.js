@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export async function getStaticProps() {
   try {
-    const files = fs.readdirSync("public/posts");
+    const files = fs.readdirSync("public/articles");
 
-    const posts = files.map((fileName) => {
+    const articles = files.map((fileName) => {
       const slug = fileName.replace(".md", "");
-      const readFile = fs.readFileSync(`public/posts/${fileName}`, "utf-8");
+      const readFile = fs.readFileSync(`public/articles/${fileName}`, "utf-8");
       const { data: frontmatter } = matter(readFile);
 
       return {
@@ -19,7 +19,7 @@ export async function getStaticProps() {
     });
 
     return {
-      props: { posts },
+      props: { articles },
     };
   } catch (error) {
     console.error(error);
@@ -30,15 +30,15 @@ export async function getStaticProps() {
   }
 }
 
-function News({ posts }) {
+function Articles({ articles }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg-grid-cols-4 md:p-0 mt-8">
-      {posts.map(({ slug, frontmatter }) => (
+      {articles.map(({ slug, frontmatter }) => (
         <div
           key={slug}
           className="border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col"
         >
-          <Link href={`/post/${slug}`} legacyBehaviour>
+          <Link href={`/article/${slug}`} legacyBehaviour>
             <Image
               width={650}
               height={340}
@@ -54,4 +54,4 @@ function News({ posts }) {
   );
 }
 
-export default News;
+export default Articles;
