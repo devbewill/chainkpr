@@ -49,7 +49,7 @@ export default function HowWorks() {
               <p className="my-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 How it works
               </p>
-              <p className="my-5 text-lg text-gray-600 ">
+              <p className="my-5 text-lg pb-10 text-gray-600 ">
                 With Datome your data management becomes effortless, allowing
                 you to stay within your domain comfort zone.
               </p>
@@ -58,16 +58,13 @@ export default function HowWorks() {
         </div>
 
         {howworks.map((item, index) => (
-          <div
-            key={item.name}
-            className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 py-10"
-          >
+          <div key={item.name} className="grid grid-cols-1 lg:grid-cols-2 py-2">
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 lg:text-xl">
                   {item.name}
                 </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
+                <p className="mt-3 text-lg leading-7 text-gray-600">
                   {item.description}
                 </p>
               </div>
@@ -79,10 +76,20 @@ export default function HowWorks() {
                   : "relative h-64 overflow-hidden rounded-lg sm:h-80 "
               }
             >
+              <svg
+                viewBox="0 0 200 200"
+                className="fill-slate-100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M42.3,-69.8C51.5,-60,53.3,-42.6,61.3,-27.4C69.3,-12.1,83.3,0.9,79.9,10.1C76.5,19.3,55.5,24.6,42.8,34.2C30,43.9,25.6,57.8,17.4,61.1C9.2,64.4,-2.7,57,-17.2,54.6C-31.7,52.1,-48.8,54.6,-57.1,47.9C-65.3,41.1,-64.7,25.2,-66.4,9.9C-68,-5.4,-72,-20,-64.8,-27C-57.6,-34.1,-39.4,-33.5,-26.7,-41.8C-14.1,-50.1,-7,-67.3,4.8,-74.7C16.6,-82.1,33.1,-79.7,42.3,-69.8Z"
+                  transform="translate(100 100)"
+                />
+              </svg>
               <img
                 alt={item.name}
                 src={`./howworks/${item.image}`}
-                className="absolute inset-0 h-full w-full object-contain"
+                className="absolute inset-0 h-full w-9/12 object-contain"
               />
             </div>
           </div>
