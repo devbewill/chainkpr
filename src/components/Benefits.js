@@ -46,13 +46,13 @@ export default function Benefits() {
         <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           The main benefits of using Datome
         </p>
-        <div className="mt-2">
+        <div className="">
           {benefits.map((item) => (
             <div
               key={item.name}
-              className="lg:flex py-5 border-b-2 last:border-0"
+              className="lg:flex py-10 border-b-2 last:border-0"
             >
-              <h1 className=" pb-2 text-lg font-bold lg:w-1/3 lg:pr-24">
+              <h1 className=" py-2 text-lg font-bold lg:w-1/3 lg:pr-24">
                 {item.name}
               </h1>
               <div className="lg:w-2/3">{item.description}</div>
