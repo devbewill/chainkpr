@@ -20,6 +20,7 @@ const navigation = [
   { name: "About", href: "https://www.mangrovia.solutions/" },
   { name: "Use cases", href: "#" },
   { name: "Faq", href: "/faq" },
+  { name: "News", href: "/news" },
   { name: "Docs", href: "https://doc.datome.io/" },
 ];
 
