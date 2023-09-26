@@ -26,7 +26,7 @@ export default function Context() {
             <img
               src="./reliability.jpg"
               alt="Product screenshot"
-              className="mx-auto w-56 md:w-96 lg:mt-10 border-4 border-black rounded-xl shadow-xl ring-1 ring-gray-400/10"
+              className="mx-auto w-56 md:w-96 lg:mt-20 border-4 border-black rounded-xl shadow-xl ring-1 ring-gray-400/10"
               width={1280}
               height={832}
             />
