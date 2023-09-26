@@ -1,10 +1,12 @@
+import { InlineWidget } from "react-calendly";
+
 export default function Contacts() {
   return (
     <section className="contacts bg-secondary">
-      <div className="flex mx-auto max-w-screen-xl py-20 gap-12">
+      <div className="lg:flex mx-auto max-w-screen-xl py-20 px-6 gap-10">
         {/* left */}
 
-        <div className=" lg:w-1/2">
+        <div className=" lg:w-1/2 pb-10">
           <h1 className="text-2xl font-bold text-black md:text-5xl">
             Are you ready to try now?
           </h1>
@@ -14,13 +16,13 @@ export default function Contacts() {
             can test in self provisioning the features of Datome.
           </p>
 
-          <form action="" class="mt-20">
+          <form action="" class="mt-10">
             <input
               type="hidden"
               name="access_key"
               value="YOUR_ACCESS_KEY_HERE"
             />
-            <div class="flex flex-col gap-8 max-w-sm">
+            <div class="flex flex-col gap-8 max-w-md">
               <div class="relative z-0 ">
                 <input
                   type="text"
@@ -57,7 +59,7 @@ export default function Contacts() {
             </div>
             <button
               type="submit"
-              class="mt-10 rounded-md bg-black px-10 py-2 text-white"
+              class="mt-10 rounded-md bg-black px-5 py-2 text-white"
             >
               Send Message
             </button>
@@ -67,7 +69,7 @@ export default function Contacts() {
         {/* right */}
 
         <div className=" lg:w-1/2 ">
-          <div className="mx-auto p-10 bg-white rounded-xl shadow-xl ">
+          <div className="mx-auto p-5 pb-0 bg-white rounded-xl shadow-xl ">
             <h1 className="text-xl font-bold text-black">
               Or maybe you prefer{" "}
               <span className="text-primary">book a meeting</span> with us?
@@ -80,6 +82,13 @@ export default function Contacts() {
               <br></br>
               🔗 Implement Blockchain with Datome
             </p>
+
+            <InlineWidget
+              url="https://calendly.com/gianluca-petrelli/datome-intro?hide_event_type_details=1&hide_gdpr_banner=1"
+              styles={{
+                height: "600px",
+              }}
+            />
           </div>
         </div>
       </div>
