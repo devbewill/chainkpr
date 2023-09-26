@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero min-h-screen">
+    <section className="hero pb-10 md:min-h-screen">
       <div className="bg-white">
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div
