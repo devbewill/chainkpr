@@ -3,17 +3,17 @@ import { InlineWidget } from "react-calendly";
 export default function Contacts() {
   return (
     <section className="contacts bg-secondary">
-      <div className="lg:flex mx-auto max-w-screen-xl py-20 px-6 gap-10">
+      <div className="lg:flex mx-auto max-w-screen-xl py-20 md:px-6 gap-10 ">
         {/* left */}
 
-        <div className=" lg:w-1/2 pb-10">
-          <h1 className="text-2xl font-bold text-black md:text-5xl">
+        <div className=" lg:w-1/2  px-6 pb-10">
+          <h1 className="text-4xl font-bold text-black md:text-5xl">
             Are you ready to try now?
           </h1>
 
           <p className="my-5 text-lg max-w-lg text-gray-600 ">
-            Are you a developer? Enjoy a fully functional 30 days sandbox so you
-            can test in self provisioning the features of Datome.
+            Enjoy a fully functional 30 days sandbox so you can test in self
+            provisioning the features of Datome.
           </p>
 
           <form action="" class="mt-10">
@@ -69,7 +69,7 @@ export default function Contacts() {
         {/* right */}
 
         <div className=" lg:w-1/2 ">
-          <div className="mx-auto p-5 pb-0 bg-white rounded-xl shadow-xl ">
+          <div className="mx-auto p-6 pb-0 bg-white lg:rounded-xl lg:shadow-xl ">
             <h1 className="text-xl font-bold text-black">
               Or maybe you prefer{" "}
               <span className="text-primary">book a meeting</span> with us?

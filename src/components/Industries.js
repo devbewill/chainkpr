@@ -53,13 +53,13 @@ export default function Context() {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className=" mx-auto px-6 lg:pr-8 lg:max-w-xl lg:pt-4">
               <div className="lg:max-w-lg">
-                <h2 className="font-semibold leading-7 text-primary uppercase">
+                <h2 className="text-sm font-semibold text-primary uppercase">
                   Industries
                 </h2>
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                   Datome in the Real World
                 </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
+                <p className="mt-4 text-gray-600">
                   From healthcare to logistics, Datome has enabled businesses to
                   transition from outdated, compliance-risky operations to
                   transparent, fully-compliant data management systems.
@@ -74,9 +74,9 @@ export default function Context() {
               {industries.map((industry) => (
                 <div
                   key={industry.name}
-                  className="panel relative mx-3 w-64 lg:w-80 rounded-xl bg-black  p-6 shadow-sm "
+                  className="panel relative mx-3 w-72 lg:w-80 rounded-xl bg-black  p-6 shadow-sm "
                 >
-                  <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <dt className="font-semibold leading-7 text-gray-900">
                     <div className="flex h-15 w-15">
                       <industry.icon
                         className="h-10 w-10 text-primary"
@@ -85,12 +85,12 @@ export default function Context() {
                     </div>
                     <p className="text-white mt-3 text-xl">{industry.name}</p>
                   </dt>
-                  <dd className="mt-2 mb-6 text-base leading-6 text-gray-300">
+                  <dd className="mt-2 mb-6 text-gray-100">
                     {industry.description}
                   </dd>
                   <a
                     href="#"
-                    className="absolute bottom-4 text-white text-sm font-semibold leading-6 "
+                    className="absolute bottom-4 text-white font-bold leading-6 "
                   >
                     See more <span aria-hidden="true">→</span>
                   </a>

@@ -43,13 +43,13 @@ export default function HowWorks() {
         <div className="flex">
           <div className="lg:pr-8 lg:pt-4">
             <div className="">
-              <h2 className="text-base font-semibold leading-7 text-primary uppercase">
+              <h2 className="text-sm font-semibold leading-7 text-primary uppercase">
                 How magic happens
               </h2>
-              <p className="my-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="my-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 How it works
               </p>
-              <p className="my-5 text-lg pb-10 text-gray-600 ">
+              <p className="mt-2 pb-10 text-gray-600 ">
                 With Datome your data management becomes effortless, allowing
                 you to stay within your domain comfort zone.
               </p>
@@ -64,7 +64,7 @@ export default function HowWorks() {
                 <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 lg:text-xl">
                   {item.name}
                 </p>
-                <p className="mt-3 text-md leading-6 md:text-lg md:leading-7 text-gray-600">
+                <p className="mt-3 md:text-lg md:leading-7 text-gray-600">
                   {item.description}
                 </p>
               </div>
