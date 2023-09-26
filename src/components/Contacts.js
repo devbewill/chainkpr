@@ -1,8 +1,10 @@
 export default function Contacts() {
   return (
-    <section className="contacts">
-      <div className="overflow-hidden  py-14 sm:py-20 bg-secondary">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section className="contacts bg-secondary">
+      <div className="flex mx-auto max-w-screen-xl py-20 gap-12">
+        {/* left */}
+
+        <div className=" lg:w-1/2">
           <h1 className="text-2xl font-bold text-black md:text-5xl">
             Are you ready to try now?
           </h1>
@@ -18,8 +20,8 @@ export default function Contacts() {
               name="access_key"
               value="YOUR_ACCESS_KEY_HERE"
             />
-            <div class="grid gap-6 sm:grid-cols-2">
-              <div class="relative z-0">
+            <div class="flex flex-col gap-8 max-w-sm">
+              <div class="relative z-0 ">
                 <input
                   type="text"
                   name="name"
@@ -60,6 +62,25 @@ export default function Contacts() {
               Send Message
             </button>
           </form>
+        </div>
+
+        {/* right */}
+
+        <div className=" lg:w-1/2 ">
+          <div className="mx-auto p-10 bg-white rounded-xl shadow-xl ">
+            <h1 className="text-xl font-bold text-black">
+              Or maybe you prefer{" "}
+              <span className="text-primary">book a meeting</span> with us?
+            </h1>
+
+            <p className="my-5 text-lg max-w-lg text-gray-600 ">
+              In a 30-minute call, Datome’s team will help you to: ‍ <br></br>
+              <br></br>
+              💰 Understand the Cost Savings <br></br>✅ Learn How Setup Datome{" "}
+              <br></br>
+              🔗 Implement Blockchain with Datome
+            </p>
+          </div>
         </div>
       </div>
     </section>
