@@ -82,7 +82,7 @@ export default function Navbar() {
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 outline-none">
+            <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none">
               Use cases
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
@@ -104,11 +104,11 @@ export default function Navbar() {
                   {usecases.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-secondary"
                     >
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+                          className="h-6 w-6 text-gray-600 group-hover:text-primary"
                           aria-hidden="true"
                         />
                       </div>
@@ -156,7 +156,7 @@ export default function Navbar() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="#"
+            href="#start-trial"
             className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >
             Start trial <span aria-hidden="true">&rarr;</span>
@@ -197,7 +197,7 @@ export default function Navbar() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between py-5 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-slate-100">
+                      <Disclosure.Button className="flex w-full items-center justify-between py-5 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-secondary">
                         Use cases
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
@@ -206,7 +206,7 @@ export default function Navbar() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block py-1 pl-6 pr-3 text-sm leading-7 text-gray-600 hover:bg-gray-50"
+                            className="block py-1 pl-6 pr-3 text-sm leading-7 text-gray-600 hover:bg-secondary"
                           >
                             {item.name}
                           </Disclosure.Button>

@@ -6,7 +6,10 @@ export default function Contacts() {
       <div className="lg:flex mx-auto max-w-screen-xl py-20 md:px-6 gap-10 ">
         {/* left */}
 
-        <div className=" lg:w-1/2  px-6 pb-10 border-r-2 border-gray-300">
+        <div
+          id="start-trial"
+          className="lg:w-1/2  px-6 pb-10 border-r-2 border-gray-300"
+        >
           <h1 className="text-4xl font-bold text-black md:text-5xl">
             Are you ready to try now?
           </h1>
@@ -68,7 +71,7 @@ export default function Contacts() {
 
         {/* right */}
 
-        <div className=" lg:w-1/2 ">
+        <div id="book-a-demo" className=" lg:w-1/2 ">
           <div className="mx-auto p-6 pb-0 bg-white lg:rounded-xl lg:shadow-xl ">
             <h1 className="text-xl font-bold text-black">
               Or maybe you prefer{" "}

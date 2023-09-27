@@ -49,12 +49,15 @@ export default function Hero() {
               </p>
               <div className="mt-16 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href="#start-trial"
                   className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
                 >
                   Try now for free
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 ">
+                <a
+                  href="#book-a-demo"
+                  className="text-sm font-semibold leading-6 "
+                >
                   Book a demo <span aria-hidden="true">→</span>
                 </a>
               </div>
