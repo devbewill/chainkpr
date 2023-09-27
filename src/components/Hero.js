@@ -19,7 +19,7 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto mt-5 lg:mt-20 text-center">
               <a
                 href="#"
-                className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-xs text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-xs text-gray-700 bg-white rounded-full  hover:bg-gray-200"
                 role="alert"
               >
                 <span class=" bg-primary rounded-full text-white px-3 py-1 mr-2">
