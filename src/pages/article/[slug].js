@@ -47,9 +47,16 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 function Article({ frontmatter, content }) {
+  // const tags = { frontmatter };
   return (
-    <div className="prose mx-auto mt-8">
+    <div className="prose p-5 mx-auto mt-8">
+      {/* {tags.map((tag) => (
+        <div>{tag}</div>
+      ))} */}
       <h1>{frontmatter.title}</h1>
+      <div className="relative w-full h-max-content overflow-hidden">
+        <img src={`/${frontmatter.socialImage}`} alt="" />
+      </div>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </div>
   );
