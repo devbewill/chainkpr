@@ -1,9 +1,9 @@
 ---
-title: "Datome for Textile"
-metaTitle: "Datome for Textile"
-metaDesc: "Datome for Textile"
+title: 'Datome for Textile'
+metaTitle: 'Datome for Textile'
+metaDesc: 'Datome for Textile'
 socialImage: assets/images/usecase-textile.webp
-date: "2023-01-02"
+date: '2023-01-02'
 tags:
 	- textile
 ---
