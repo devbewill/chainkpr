@@ -62,7 +62,7 @@ export default function Contacts() {
             </div>
             <button
               type="submit"
-              class="mt-10 rounded-md bg-black px-5 py-2 text-white font-bold"
+              class="mt-10 rounded-md bg-black px-5 py-2 text-white font-bold hover:bg-primary transition"
             >
               Start a trial
             </button>
