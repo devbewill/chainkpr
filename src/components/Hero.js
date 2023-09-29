@@ -56,10 +56,9 @@ export default function Hero() {
                 </a>
                 <a
                   href="#book-a-demo"
-                  className="text-sm font-semibold leading-6  "
+                  className="text-sm font-semibold leading-6  hover:text-primary transition"
                 >
-                  hover:text-primary transition Book a demo{" "}
-                  <span aria-hidden="true">→</span>
+                  <span aria-hidden="true">Book a demo →</span>
                 </a>
               </div>
             </div>
