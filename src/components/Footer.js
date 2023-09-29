@@ -6,7 +6,7 @@ export default function Footer() {
           <div class="mb-6 md:mb-0 lg:w-1/3">
             <a href="./" class="flex items-center pb-5">
               <img
-                src="./datome.svg"
+                src="/datome.svg"
                 class="mr-01 h-10 fill-black"
                 alt="datome Logo"
               />

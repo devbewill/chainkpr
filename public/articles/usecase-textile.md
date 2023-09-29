@@ -1,15 +1,12 @@
 ---
 title: "Datome for Textile market"
-metaTitle: "Datome for Textile"
-metaDesc: "Datome for Textile"
-socialImage: assets/images/usecase-textile.webp
+excerpt: "One of the applications of Datome in the textile sector is the certification project for supply chains, aiming to ensure regulatory compliance, particularly concerning the materials used, and to enhance transparency towards consumers."
+socialImage: assets/images/usecase-textile.png
 date: "2023-01-02"
 tags:
   - textile
   - usecase
 ---
-
-One of the applications of Datome in the textile sector is the certification project for supply chains, aiming to ensure regulatory compliance, particularly concerning the materials used, and to enhance transparency towards consumers.
 
 ### SCOPE
 

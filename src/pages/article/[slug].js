@@ -1,6 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import md from "markdown-it";
+import Layout from "@/components/Layout";
 
 export async function getStaticPaths() {
   try {
@@ -39,22 +40,28 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 function Article({ frontmatter, content }) {
-  const { tags, title, socialImage } = frontmatter;
+  const { tags, title, socialImage, excerpt } = frontmatter;
 
   return (
-    <div className="prose p-5 mx-auto mt-8">
-      <h1>{title}</h1>
-
-      <div className="relative w-full h-max-content overflow-hidden">
-        <img src={`/${socialImage}`} alt="" />
-      </div>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-      {tags.map((tag) => (
-        <div className="inline-flex rounded-md px-2 mr-2 bg-black text-white">
-          {tag}
+    <Layout>
+      <div className="prose p-5 mx-auto my-40 ">
+        <h1 className="text-5xl mb-3">{title}</h1>
+        <p className="font-bold">{excerpt}</p>
+        <div className="relative w-full h-max-content overflow-hidden">
+          <img className="m-0" src={`/${socialImage}`} alt="image" />
         </div>
-      ))}
-    </div>
+
+        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        {tags.map((tag) => (
+          <div
+            key={tag}
+            className="inline-flex rounded-full px-2 mr-2 bg-primary text-white"
+          >
+            {tag}
+          </div>
+        ))}
+      </div>
+    </Layout>
   );
 }
 
