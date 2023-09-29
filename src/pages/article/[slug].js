@@ -44,7 +44,7 @@ function Article({ frontmatter, content }) {
 
   return (
     <Layout>
-      <div className="prose p-5 mx-auto my-40 ">
+      <div className="prose p-5 mx-auto my-28 lg:mt-36">
         {tags.map((tag) => (
           <div
             key={tag}
