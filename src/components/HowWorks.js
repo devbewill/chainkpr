@@ -21,7 +21,7 @@ export default function HowWorks() {
     {
       name: "Groups",
       description:
-        "Users lives in a groups and can be legacy applications, human beings, IoT devices or even external organizations. For example, you can specify that only a certified manufacturer can create a drug pill, and only a licensed pharmacist can update its status to sold.",
+        "Users are clustered in groups and can be legacy applications, human beings, IoT devices or even external organizations. For example, you can specify that only a certified manufacturer can create a drug pill, and only a licensed pharmacist can update its status to sold.",
       image: "how4.jpg",
     },
     {

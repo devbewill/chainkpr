@@ -42,7 +42,7 @@ const usecases = [
   //   icon: SquaresPlusIcon,
   // },
   {
-    name: "Digital Passport",
+    name: "Digital Product Passport",
     description: "Build strategic funnels that will convert",
     href: "/article/usecase-dpp",
     icon: ArrowPathIcon,
