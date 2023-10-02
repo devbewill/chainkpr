@@ -44,7 +44,7 @@ function Article({ frontmatter, content }) {
 
   return (
     <Layout>
-      <div className="prose p-5 mx-auto my-28 lg:mt-36">
+      <div className="prose p-5 mx-auto mt-28 mb-10 lg:mt-36">
         <h1 className="text-5xl mb-3">{title}</h1>
         <p className="font-bold">{excerpt}</p>
         <div className="relative w-full h-max-content overflow-hidden">
@@ -52,11 +52,11 @@ function Article({ frontmatter, content }) {
         </div>
 
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-        <div className="mt-10 border-t">
+        <div className="mt-10 pt-5 border-t">
           {tags.map((tag) => (
             <div
               key={tag}
-              className="inline-flex rounded-full px-3 py-1 my-6 mr-2 bg-primary text-white text-xs font-bold uppercase"
+              className="inline-flex rounded-full px-3 py-1 my-1 mr-2 bg-primary text-white text-xs font-bold uppercase"
             >
               {tag}
             </div>
