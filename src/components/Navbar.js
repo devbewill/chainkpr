@@ -26,25 +26,25 @@ const usecases = [
   {
     name: "Security",
     description: "lorem ipsum Security ",
-    href: "#",
+    href: "/articles",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Pharma",
     description: "Your customers’ data will be safe and secure",
-    href: "#",
+    href: "/article/usecase-pharma",
     icon: FingerPrintIcon,
   },
   {
     name: "Food",
     description: "Connect with third-party tools",
-    href: "#",
+    href: "/articles",
     icon: SquaresPlusIcon,
   },
   {
     name: "Digital Passport",
     description: "Build strategic funnels that will convert",
-    href: "#",
+    href: "/article/usecase-dpp",
     icon: ArrowPathIcon,
   },
 ];

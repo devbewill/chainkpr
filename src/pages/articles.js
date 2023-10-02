@@ -45,10 +45,9 @@ function Articles({ articles }) {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+          pariatur.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 md:p-0 mt-10 mb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 mb-32 gap-4">
           {articles.map(({ slug, frontmatter }) => (
             // <article
             //   key={slug}
@@ -79,7 +78,7 @@ function Articles({ articles }) {
             //     </p>
             //   </div>
             // </article>
-            <article className="flex bg-white transition hover:shadow-xl border-black border-2 rounded-xl">
+            <article className="flex bg-white transition hover:shadow-xl my-4 border-black border-2 rounded-xl">
               <div className="rotate-180 p-3 [writing-mode:_vertical-lr]">
                 <time className="flex items-center justify-between gap-4 text-sm font-bold uppercase text-gray-900">
                   <span>{frontmatter.date}</span>
