@@ -23,24 +23,24 @@ const usecases = [
     href: "/article/usecase-textile",
     icon: ChartPieIcon,
   },
-  {
-    name: "Security",
-    description: "lorem ipsum Security ",
-    href: "/articles",
-    icon: CursorArrowRaysIcon,
-  },
+  // {
+  //   name: "Security",
+  //   description: "lorem ipsum Security ",
+  //   href: "/articles",
+  //   icon: CursorArrowRaysIcon,
+  // },
   {
     name: "Pharma",
     description: "Your customers’ data will be safe and secure",
     href: "/article/usecase-pharma",
     icon: FingerPrintIcon,
   },
-  {
-    name: "Food",
-    description: "Connect with third-party tools",
-    href: "/articles",
-    icon: SquaresPlusIcon,
-  },
+  // {
+  //   name: "Food",
+  //   description: "Connect with third-party tools",
+  //   href: "/articles",
+  //   icon: SquaresPlusIcon,
+  // },
   {
     name: "Digital Passport",
     description: "Build strategic funnels that will convert",
