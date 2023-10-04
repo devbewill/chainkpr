@@ -4,8 +4,10 @@ import {
   FingerPrintIcon,
   LockClosedIcon,
 } from "@heroicons/react/24/outline";
-import Flicking from "@egjs/react-flicking";
 import "@egjs/react-flicking/dist/flicking.css";
+import Flicking, { ViewportSlot } from "@egjs/react-flicking";
+import { AutoPlay, Pagination } from "@egjs/flicking-plugins";
+import "@egjs/flicking-plugins/dist/pagination.css";
 
 const industries = [
   {
@@ -46,6 +48,14 @@ const industries = [
   },
 ];
 export default function Context() {
+  const _plugins = [
+    new Pagination({
+      type: "bullet",
+      classPrefix: "bulletCustom",
+    }),
+    new AutoPlay({ stopOnHover: true }),
+  ];
+
   return (
     <section className="industries">
       <div className="overflow-hidden bg-secondary py-20">
@@ -69,7 +79,8 @@ export default function Context() {
             <Flicking
               align="prev"
               circular={true}
-              style={{ paddingLeft: "1.5rem" }}
+              style={{ paddingLeft: "1.5rem", paddingBottom: "3rem" }}
+              plugins={_plugins}
             >
               {industries.map((industry) => (
                 <div
@@ -96,6 +107,9 @@ export default function Context() {
                   </a>
                 </div>
               ))}
+              <ViewportSlot>
+                <div className="flicking-pagination"></div>
+              </ViewportSlot>
             </Flicking>
           </div>
         </div>
