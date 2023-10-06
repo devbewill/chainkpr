@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
           <div className="pt-20">
             <div className="max-w-7xl mx-auto mt-5 lg:mt-20 text-center">
-              <a
+              {/* <a
                 href="/article/usecase-dpp"
                 className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-xs text-gray-700 bg-white shadow-lg rounded-full  hover:bg-gray-200"
                 role="alert"
@@ -38,14 +38,17 @@ export default function Hero() {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-              </a>
+              </a> */}
               <h1 className="text-4xl font-extrabold tracking-tight text-gray-900  lg:text-[5rem] lg:leading-none ">
                 Unlock real-time process control with blockchain
+                {/* Empower your data and processes with blockchain */}
               </h1>
               <p className="mx-auto mt-5 lg:text-2xl leading-6 max-w-3xl text-gray-500">
-                Datome brings transparency, traceability, and regulatory
-                compliance to your enterprise operations, all without requiring
-                a background in blockchain technology.
+                Datome brings transparency, traceability and regulatory
+                compliance to your enterprise operations. <br></br>All without
+                requiring a background in blockchain technology
+                {/* Safeguard Your Business against errors, manipulations and costly
+                anomalies. */}
               </p>
               <div className="mt-16 flex items-center justify-center gap-x-6">
                 <a
