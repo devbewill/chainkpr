@@ -17,28 +17,6 @@ export default function Hero() {
           </div>
           <div className="pt-20">
             <div className="max-w-7xl mx-auto mt-5 lg:mt-20 text-center">
-              {/* <a
-                href="/article/usecase-dpp"
-                className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-xs text-gray-700 bg-white shadow-lg rounded-full  hover:bg-gray-200"
-                role="alert"
-              >
-                <span class=" bg-primary rounded-full text-white px-3 py-1 mr-2">
-                  New
-                </span>
-                <span class="font-medium">Digital Product Passport?</span>
-                <svg
-                  class="ml-2 w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </a> */}
               <h1 className="text-4xl font-extrabold tracking-tight text-gray-900  lg:text-[5rem] lg:leading-none ">
                 Unlock real-time process control with blockchain
                 {/* Empower your data and processes with blockchain */}
