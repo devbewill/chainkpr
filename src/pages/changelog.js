@@ -1,42 +1,13 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
+import ChangelogItem from "@/components/ChangelogItem";
 import { changelog } from "./api/changelog";
 
+const changelogEntries = changelog.map((entry) => {
+  return <ChangelogItem key={entry.version} entry={entry} />;
+});
+
 export default function Changelog() {
-  const changelogEntries = changelog.map((entry) => {
-    return (
-      <div key={entry.version} className="flex flex-col mb-10 py-10 border-b-2">
-        <span className="text-sm text-gray-400">Version {entry.version}</span>
-        <p className="text-xl font-bold pb-3">{entry.released}</p>
-
-        {entry.list.map((change) => {
-          const typesColor =
-            change.type === "feature"
-              ? "#7BCDBA"
-              : change.type === "fixed"
-              ? "#9799CA"
-              : "#DBAD6A";
-          return (
-            <div key={change.title} className="flex-column lg:flex my-2">
-              <div className="flex lg:w-2/12">
-                <span
-                  className="leading-7 px-4 h-fit text-center text-white rounded-md uppercase font-bold text-sm"
-                  style={{ backgroundColor: typesColor }}
-                >
-                  {change.type}
-                </span>
-              </div>
-              <div className="flex flex-col lg:w-10/12 gap-y-1">
-                <span className="font-bold text-md">{change.title}</span>
-                {/* <span className="text-xs">{change.description}</span> */}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    );
-  });
-
   return (
     <>
       <Layout>
