@@ -1,19 +1,14 @@
-import { useState } from "react";
-import { parse, formatDistance } from "date-fns";
+import { parseISO, formatDistance, format } from "date-fns";
 
-export default function Datetime() {
-  const [date, setDate] = useState("2023-10-09");
+export default function Datetime(props) {
+  const { dateToParse } = props;
 
   const formattedDate = () => {
-    const inputDate = parse(date, "yyyy-mm-dd");
+    const inputDate = parseISO(dateToParse, "yyyy-mm-dd");
     const currentDate = new Date();
-    const differenceInMillis = currentDate.getTime() - inputDate.getTime();
-    return formatDistance(differenceInMillis, { addSuffix: true });
+    // return formatDistance(currentDate, inputDate); (.. ago)
+    return format(new Date(inputDate), "MMM dd, yy");
   };
 
-  return (
-    <div>
-      <p>Formatted date: {formattedDate()}</p>
-    </div>
-  );
+  return <p className="text-xl font-bold pb-2">{formattedDate()}</p>;
 }

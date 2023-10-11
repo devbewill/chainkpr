@@ -1,9 +1,10 @@
+import Datetime from "./Datetime";
+
 const ChangelogItem = ({ entry }) => {
   return (
     <div key={entry.version} className="flex flex-col mb-10 py-10 border-b-2">
       <span className="text-sm text-gray-400">Version {entry.version}</span>
-      <Datetime></Datetime>
-      <p className="text-xl font-bold pb-2">{entry.released}</p>
+      <Datetime dateToParse={entry.released}></Datetime>
 
       {entry.list.map((change) => {
         const typesColor =
