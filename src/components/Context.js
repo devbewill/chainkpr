@@ -13,13 +13,17 @@ export default function Context() {
                   The reliability on your data is a critical issue
                 </p>
                 <p className="mt-2 text-gray-600">
-                  The door is often left open to potential errors, manipulations
-                  and procedural anomalies. A questionable reliability, or an
-                  actual wrong processing, may lead to incorrect
-                  decision-making, loss of margins or even third-party claims.
-                  With usual methods, ensuring trust in your data and processes
-                  by all stakeholders is either not possible or complex and
-                  expensive.
+                  In today's world, businesses are increasingly reliant on data
+                  to make informed decisions and improve their performance.
+                  However, the fragmentation of processes and tools used by
+                  stakeholders can hinder the creation of a clear and complete
+                  overview.
+                  <br></br>
+                  <br></br> Datome aims to solve this problem by providing all
+                  users with the same tools to use for data entry and processes
+                  management.<br></br>This enables the collection of consistent
+                  and standardized data, which can be easily used to make better
+                  decisions while also leveraging the security of blockchain.
                 </p>
               </div>
             </div>
