@@ -16,6 +16,7 @@
     "autoprefixer": "^10.4.15",
     "date-fns": "^2.30.0",
     "gray-matter": "^4.0.3",
+    "highlight.js": "^11.9.0",
     "markdown-it": "^13.0.2",
     "next": "13.4.19",
     "next-themes": "^0.2.1",

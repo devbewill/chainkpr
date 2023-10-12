@@ -1,7 +1,13 @@
+import React, { useEffect } from "react";
 import fs from "fs";
 import matter from "gray-matter";
 import md from "markdown-it";
 import Layout from "@/components/Layout";
+
+import hljs from "highlight.js/lib/core";
+import "highlight.js/styles/ir-black.css";
+import json from "highlight.js/lib/languages/json";
+hljs.registerLanguage("json", json);
 
 export async function getStaticPaths() {
   try {
@@ -40,6 +46,10 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 function Article({ frontmatter, content }) {
+  useEffect(() => {
+    hljs.highlightAll();
+  }, []);
+
   const { tags, title, socialImage, excerpt } = frontmatter;
 
   return (
