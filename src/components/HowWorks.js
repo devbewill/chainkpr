@@ -81,10 +81,10 @@ export default function HowWorks() {
                 <p className="text-sm font-semibold leading-7 text-gray-500 uppercase">
                   {item.intro}
                 </p>
-                <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 lg:text-2xl">
+                <p className="mt-2 font-semibold leading-7 text-gray-900 md:text-lg">
                   {item.title}
                 </p>
-                <p className="mt-3 md:text-lg md:leading-7 text-gray-600">
+                <p className="mt-2 text-base leading-7 text-gray-600">
                   {item.description}
                 </p>
               </div>

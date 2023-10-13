@@ -78,7 +78,7 @@ export default function Context() {
             </div>
             <Flicking
               align="prev"
-              circular={true}
+              circular={false}
               style={{ paddingLeft: "1.5rem", paddingBottom: "3rem" }}
               plugins={_plugins}
             >
@@ -89,10 +89,7 @@ export default function Context() {
                 >
                   <dt className="font-semibold leading-7 text-gray-900">
                     <div className="flex h-15 w-15">
-                      <industry.icon
-                        className="h-10 w-10 text-primary"
-                        aria-hidden="true"
-                      />
+                      <industry.icon className="h-10 w-10" aria-hidden="true" />
                     </div>
                     <p className="text-white mt-3 text-xl">{industry.name}</p>
                   </dt>

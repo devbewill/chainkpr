@@ -24,12 +24,18 @@ export default function ProductInfo() {
           </svg>
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white md:text-5xl">
-              Start using Datome today.
+              Leave the tech to us
             </h2>
-            <p className="mt-6 text-xl text-gray-100">
-              Unsure how to solve your data management issues? <br></br>
-              Boost your productivity and book a demo with us to see how Datome
-              can help your organization.
+            <p className="mt-6 text-gray-100">
+              We understand that your expertise lies in your business, not
+              managing complex technology. That's where we come in. With Datome,
+              you have the power to construct your own ecosystem with ease.
+              Whether it's managing processes, permissions, or setting rules,
+              our user-friendly editor empowers you to shape your digital world
+              without the need for coding expertise.
+              <span className="block pt-2 font-bold">
+                You focus on your vision, we handle the technology.
+              </span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
