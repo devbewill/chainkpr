@@ -1,39 +1,52 @@
 export default function HowWorks() {
   const howworks = [
     {
-      name: "Models",
+      intro: "Start with a simple question",
+      title: "What is the core of your process?",
       description:
-        "Datome works by allowing you to define the general abstraction of the asset you want to track, which we call a Model. A Model is a JSON scheme that describes the properties, statuses and relations of an asset.",
+        "In the first step, you identify the core element of your process. This could be a physical asset, such as a bag, or a digital asset, like a contract. The blue-print of this asset will be represented by what we call in Datome a Model, i.e. a JSON schema that describes all the characteristics and rules of the asset.",
       image: "how1.png",
     },
     {
-      name: "Relations",
+      intro: "Match the traits of your data-flow",
+      title: "What describes your asset?",
       description:
-        "For example, you can define a Model for a drug pill, a drug blister and a drug packaging, and how they are related to each other.",
+        "Delve into the specific details that describe your asset. To do this, enrich your model with what we call properties. Properties are nothing more than the characteristics and data that describe the asset (e.g. the quantity or the type of material).",
       image: "how2.png",
     },
     {
-      name: "Mutations",
+      intro: "Trace the path",
+      title: "What are the steps of your process?",
       description:
-        "Each Model also defines the rules and conditions for creating and updating an asset, as well as the privileges required for different users.",
+        "Outline the sequence of actions that make up your process. Each actions will be represented by a state. The total chain of your states correspond to the rules of your workflow and will represent at the end the history fo your supply chain.",
       image: "how3.png",
     },
     {
-      name: "Groups",
+      intro: "Predict the unpredictable",
+      title: "Are there steps in your process that are not fixed?",
       description:
-        "Users are clustered in groups and can be legacy applications, human beings, IoT devices or even external organizations. For example, you can specify that only a certified manufacturer can create a drug pill, and only a licensed pharmacist can update its status to sold.",
+        "Is your workflow made up of also unpredictable events or is the data describing your asset ever-changing? Set up the possibility to make updates and add events to always have at hand the tool to unfailingly describe any particularity of your process.",
       image: "how4.jpg",
     },
     {
-      name: "Assets",
+      intro: "Instill logic",
+      title: "Are there other entities connected to your asset?",
       description:
-        "Once you have defined your Models, you can start creating assets and having them go through the designed flow.",
-      image: "how5.png",
+        "Explore the relationships and connections between your asset and other entities within your ecosystem. Is your bag made up of different kinds of leather? This is what we call a relation.",
+      image: "how4.jpg",
     },
     {
-      name: "History",
+      intro: "Assign the responsabilities",
+      title: "Who can do what?",
       description:
-        "For each asset, you get a customizable public web page that certifies the history of the changes and the rules that were followed. This way, you can ensure the transparency and accountability of your assets.",
+        "Determine who has access to your ecosystem and what actions they can perform. By setting the authorized groups, you create a secure and efficient environment for stakeholders to collaborate effectively.",
+      image: "how6.png",
+    },
+    {
+      intro: "Ready, set, go!",
+      title: "Start creating your assets",
+      description:
+        "Once you have everything set, you can start creating assets and having them go through the designed flow. For each asset, you get a customizable public web page that certifies the history of the changes and the rules that were followed.",
       image: "how6.png",
     },
   ];
@@ -50,19 +63,26 @@ export default function HowWorks() {
                 How it works
               </p>
               <p className="mt-2 pb-10 text-gray-600 ">
-                With Datome your data management becomes effortless, allowing
-                you to stay within your domain comfort zone.
+                Curious about how Datome can transform your business operations?
+                Let's dive in and explore the process that turns your vision
+                into reality.
               </p>
             </div>
           </div>
         </div>
 
         {howworks.map((item, index) => (
-          <div key={item.name} className="grid grid-cols-1 lg:grid-cols-2 py-2">
+          <div
+            key={item.intro}
+            className="grid grid-cols-1 lg:grid-cols-2 py-2"
+          >
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 lg:text-xl">
-                  {item.name}
+                <p className="text-sm font-semibold leading-7 text-gray-500 uppercase">
+                  {item.intro}
+                </p>
+                <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 lg:text-2xl">
+                  {item.title}
                 </p>
                 <p className="mt-3 md:text-lg md:leading-7 text-gray-600">
                   {item.description}

@@ -21,9 +21,8 @@ export default function Hero() {
                 Your standard, your blockchain
               </h1>
               <p className="mx-auto mt-5 lg:text-2xl leading-6 max-w-4xl text-gray-500">
-                We are making blockchain more accessible and affordable so that
-                everyone can experience its benefits for managing their data and
-                processes.
+                Establish a standard among your stakeholders, orchestrate
+                processes, and ensure compliance, all in one place.
               </p>
               <div className="mt-16 flex items-center justify-center gap-x-6">
                 <a

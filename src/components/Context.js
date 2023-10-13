@@ -7,23 +7,21 @@ export default function Context() {
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
                 <h2 className="text-sm font-semibold leading-7 text-primary uppercase">
-                  The context
+                  We get you
                 </h2>
                 <p className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  The reliability on your data is a critical issue
+                  Unifying diverse data flows and ensuring trust among
+                  stakeholders is not a piece of cake
                 </p>
                 <p className="mt-2 text-gray-600">
-                  In today's world, businesses are increasingly reliant on data
-                  to make informed decisions and improve their performance.
-                  However, the fragmentation of processes and tools used by
-                  stakeholders can hinder the creation of a clear and complete
-                  overview.
-                  <br></br>
-                  <br></br> Datome aims to solve this problem by providing all
-                  users with the same tools to use for data entry and processes
-                  management.<br></br>This enables the collection of consistent
-                  and standardized data, which can be easily used to make better
-                  decisions while also leveraging the security of blockchain.
+                  In today's fast-paced and data-driven world, businesses need
+                  more than off-the-shelf solutions. They need a system that
+                  reflects their unique workflow, structure and responsibility
+                  management. A one-size-fits-all approach to business
+                  orchestration is no longer sufficient. <br></br>That's why we
+                  empower you to create your own blockchain standard, making
+                  your processes management among different stakeholders easy,
+                  flexible and secure.
                 </p>
               </div>
             </div>
