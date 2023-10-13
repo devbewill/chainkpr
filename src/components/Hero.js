@@ -15,25 +15,25 @@ export default function Hero() {
               }}
             />
           </div>
-          <div className="pt-20">
+          <div className="pt-20 lg:mt-10">
             <div className="max-w-7xl mx-auto mt-5 lg:mt-20 text-center">
-              <h1 className="text-4xl font-extrabold tracking-tight text-gray-900  lg:text-[5rem] lg:leading-none ">
+              <h1 className="text-4xl font-extrabold tracking-tight text-gray-900  lg:text-[6rem] lg:leading-none ">
                 Your standard, your blockchain
               </h1>
-              <p className="mx-auto mt-5 lg:text-2xl leading-6 max-w-4xl text-gray-500">
+              <p className="mx-auto mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-600">
                 Establish a standard among your stakeholders, orchestrate
                 processes, and ensure compliance, all in one place.
               </p>
-              <div className="mt-16 flex items-center justify-center gap-x-6">
+              <div className="flex-col mt-16 flex items-center justify-center gap-6 lg:flex-row">
                 <a
                   href="#start-trial"
-                  className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
+                  className="rounded-full bg-black px-4 py-2 text-lg font-semibold text-white hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
                 >
                   Try now for free
                 </a>
                 <a
                   href="#book-a-demo"
-                  className="text-sm font-semibold leading-6  hover:text-primary transition"
+                  className="text-lg font-semibold leading-6  hover:text-primary transition"
                 >
                   <span aria-hidden="true">Book a demo →</span>
                 </a>

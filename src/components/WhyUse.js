@@ -60,9 +60,9 @@ export default function WhyUse() {
             </div>
             <div className="grid gap-8 ">
               {whyList.map((item) => (
-                <div key={item.name} className="relative pl-16">
-                  <div className="font-semibold leading-7 text-gray-900 md:text-lg">
-                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                <div key={item.name} className="relative lg:pl-16">
+                  <div className="font-bold text-gray-900 text-lg">
+                    <div className="hidden absolute left-0 top-0 lg:flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                       <item.icon
                         className="h-6 w-6 text-white"
                         aria-hidden="true"
@@ -70,7 +70,7 @@ export default function WhyUse() {
                     </div>
                     {item.name}
                   </div>
-                  <div className="mt-2 text-base leading-7 text-gray-600">
+                  <div className="mt-2 text-base text-gray-600">
                     {item.description}
                   </div>
                 </div>

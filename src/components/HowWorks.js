@@ -78,13 +78,13 @@ export default function HowWorks() {
           >
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <p className="text-sm font-semibold leading-7 text-gray-500 uppercase">
+                <p className="text-sm font-semibold  text-gray-500 uppercase">
                   {item.intro}
                 </p>
-                <p className="mt-2 font-semibold leading-7 text-gray-900 md:text-lg">
+                <p className="mt-2 font-semibold text-gray-900 text-lg">
                   {item.title}
                 </p>
-                <p className="mt-2 text-base leading-7 text-gray-600">
+                <p className="mt-2 text-base text-gray-600">
                   {item.description}
                 </p>
               </div>

@@ -82,7 +82,7 @@ export default function Navbar() {
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative hover:text-primary transition">
-            <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none hover:text-primary transition">
+            <Popover.Button className="flex items-center font-semibold leading-6 text-gray-900 outline-none hover:text-primary transition">
               Use cases
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
@@ -131,7 +131,7 @@ export default function Navbar() {
 
           <a
             href="https://mangrovia.solutions"
-            className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition"
+            className=" font-semibold leading-6 text-gray-900 hover:text-primary transition"
           >
             About us
           </a>
@@ -143,13 +143,13 @@ export default function Navbar() {
           </a> */}
           <a
             href="./faq"
-            className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition"
+            className=" font-semibold leading-6 text-gray-900 hover:text-primary transition"
           >
             Faq
           </a>
           <a
             href="https://doc.datome.io/"
-            className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition"
+            className="font-semibold leading-6 text-gray-900 hover:text-primary transition"
           >
             Docs
           </a>
@@ -157,7 +157,7 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
             href="#start-trial"
-            className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
+            className="rounded-full bg-black px-4 py-2 text-lg font-semibold text-white shadow-sm hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
           >
             Start trial <span aria-hidden="true">&rarr;</span>
           </a>

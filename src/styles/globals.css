@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: var(--inter-font);
+  font-family: var(--cabin-font);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
