@@ -27,7 +27,7 @@ export default function Hero() {
               <div className="flex-col mt-16 flex items-center justify-center gap-6 lg:flex-row">
                 <a
                   href="#start-trial"
-                  className="rounded-full bg-black px-4 py-2 text-lg font-semibold text-white hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
+                  className="rounded-full w-full lg:w-fit bg-black px-5 py-2 text-lg font-semibold text-white hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
                 >
                   Try now for free
                 </a>

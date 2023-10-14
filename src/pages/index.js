@@ -9,6 +9,7 @@ import HowWorks from "@/components/HowWorks";
 import Context from "@/components/Context";
 import Benefits from "@/components/Benefits";
 import WhyUse from "@/components/WhyUse";
+import WhyBlockchain from "@/components/WhyBlockchain";
 import Industries from "@/components/Industries";
 import Contacts from "@/components/Contacts";
 
@@ -31,6 +32,7 @@ export default function Home() {
         <ProductInfo></ProductInfo>
         <HowWorks></HowWorks>
         <WhyUse></WhyUse>
+        <WhyBlockchain></WhyBlockchain>
         {/* <Industries></Industries>
         <Benefits></Benefits> */}
         <Contacts></Contacts>
