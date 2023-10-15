@@ -47,9 +47,9 @@ export default function WhyUse() {
               <h2 className="font-semibold leading-7 text-primary uppercase">
                 So why
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="mt-2 text-3xl tracking-tight text-gray-900 sm:text-4xl">
                 Why should you use Datome?
-              </p>
+              </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Datome is a versatile platform designed to deliver benefits to
                 businesses across various industries, regardless of their size
@@ -61,7 +61,7 @@ export default function WhyUse() {
             <div className="grid gap-8 ">
               {whyList.map((item) => (
                 <div key={item.name} className="relative lg:pl-16">
-                  <div className="font-bold text-gray-900 text-lg">
+                  <h3 className=" text-gray-900 text-lg">
                     <div className="hidden absolute left-0 top-0 lg:flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                       <item.icon
                         className="h-6 w-6 text-white"
@@ -69,7 +69,7 @@ export default function WhyUse() {
                       />
                     </div>
                     {item.name}
-                  </div>
+                  </h3>
                   <div className="mt-2 text-base text-gray-600">
                     {item.description}
                   </div>

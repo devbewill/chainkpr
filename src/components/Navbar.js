@@ -62,7 +62,7 @@ export default function Navbar() {
           <a href="/" className="flex -m-1.5 p-1.5">
             <span className="sr-only">datome</span>
             <img
-              src="/datome.svg"
+              src="/datome-black.svg"
               class="mr-01 h-10 fill-black"
               alt="datome Logo"
             />

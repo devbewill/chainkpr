@@ -59,9 +59,9 @@ export default function HowWorks() {
               <h2 className="text-sm font-semibold leading-7 text-primary uppercase">
                 How magic happens
               </h2>
-              <p className="my-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="my-2 text-2xl tracking-tight text-gray-900 sm:text-4xl">
                 How it works
-              </p>
+              </h2>
               <p className="mt-2 pb-10 text-gray-600 ">
                 Curious about how Datome can transform your business operations?
                 Let's dive in and explore the process that turns your vision
@@ -81,9 +81,9 @@ export default function HowWorks() {
                 <p className="text-sm font-semibold  text-gray-500 uppercase">
                   {item.intro}
                 </p>
-                <p className="mt-2 font-semibold text-gray-900 text-lg">
+                <h3 className="mt-2 font-semibold text-gray-900 text-lg">
                   {item.title}
-                </p>
+                </h3>
                 <p className="mt-2 text-base text-gray-600">
                   {item.description}
                 </p>

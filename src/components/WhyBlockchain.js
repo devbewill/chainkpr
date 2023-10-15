@@ -29,7 +29,7 @@ export default function WhyBlockchain() {
           Last but not least
         </h2>
 
-        <p className="mt-2 text-2xl font-bold md:text-4xl md:mb-8">
+        <p className="mt-2 text-2xl md:text-4xl md:mb-8">
           <span className="font-black">Why blockchain?</span>
           <br></br>
           You might wonder why, with existing process orchestration systems in
@@ -41,7 +41,7 @@ export default function WhyBlockchain() {
           {blockchain.map((item) => (
             <div key={item.name} className="flex items-start p-8">
               <div>
-                <h2 className="font-bold text-xl">{item.name}</h2>
+                <h3 className=" text-xl">{item.name}</h3>
 
                 <p className="mt-2 text-base ">{item.description}</p>
               </div>

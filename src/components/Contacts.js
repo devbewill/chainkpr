@@ -10,7 +10,7 @@ export default function Contacts() {
           id="start-trial"
           className="lg:w-1/2  px-6 pb-10 border-r-2 border-gray-300"
         >
-          <h1 className="text-4xl font-bold text-white md:text-5xl">
+          <h1 className="text-4xl text-white md:text-5xl">
             Are you ready to try now?
           </h1>
 
@@ -73,7 +73,7 @@ export default function Contacts() {
 
         <div id="book-a-demo" className=" lg:w-1/2 ">
           <div className="mx-auto p-6 pb-0 bg-white lg:rounded-xl lg:shadow-xl ">
-            <h1 className="text-xl font-bold text-black">
+            <h1 className="text-xl text-black">
               Or maybe you prefer{" "}
               <span className="text-primary">book a meeting</span> with us?
             </h1>

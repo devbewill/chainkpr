@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
           <div className="pt-20 lg:mt-10">
             <div className="max-w-7xl mx-auto mt-5 lg:mt-20 text-center">
-              <h1 className="text-4xl font-extrabold tracking-tight text-gray-900  lg:text-[6rem] lg:leading-none ">
+              <h1 className="text-4xl tracking-tight text-gray-900  lg:text-[6rem] lg:leading-none ">
                 Your standard, your blockchain
               </h1>
               <p className="mx-auto mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-600">

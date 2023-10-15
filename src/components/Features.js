@@ -35,12 +35,12 @@ export default function Features() {
   return (
     <section className="features">
       <div className="mx-auto max-w-7xl py-10 px-6 ">
-        <h2 className="text-sm font-semibold text-primary uppercase">
+        {/* <h2 className="text-sm font-semibold text-primary uppercase">
           Features
-        </h2>
-        <p className="mt-2 text-2xl font-bold  md:text-4xl md:mb-8">
+        </h2> */}
+        <h2 className="mt-2 text-2xl md:text-xl md:mb-8">
           Five things Datome can do for you
-        </p>
+        </h2>
 
         <div className="mt-8 grid grid-cols-1 gap-2 md:mt-16 md:grid-cols-2 lg:grid-cols-3">
           {features.map((item) => (
@@ -54,7 +54,7 @@ export default function Features() {
                 className=" w-32 pt-10 pb-16 mx-auto"
               />
               <div>
-                <h2 className="font-bold text-xl">{item.name}</h2>
+                <h3 className=" text-xl">{item.name}</h3>
 
                 <p className="mt-2 text-base ">{item.description}</p>
               </div>
