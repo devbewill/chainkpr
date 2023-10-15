@@ -2,7 +2,7 @@ export default function ProductInfo() {
   return (
     <section className="ProductInfo">
       <div className=" mx-auto">
-        <div className="relative bg-gray-900 px-6 py-5 lg:flex">
+        <div className="relative overflow-hidden bg-gray-900 px-6 py-5 lg:flex">
           <svg
             viewBox="0 0 1024 1024"
             className="absolute left-1/2 -z-10 h-[50rem] w-[50rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
