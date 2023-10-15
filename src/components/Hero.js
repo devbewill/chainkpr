@@ -2,32 +2,29 @@ export default function Hero() {
   return (
     <section className="hero pb-10 md:min-h-[95vh]">
       <div className="bg-white">
-        <div className="relative isolate px-6 pt-14 lg:px-8">
-          <div
-            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-            aria-hidden="true"
-          >
-            <div
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#a888f4] to-[#50ffd6] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-              style={{
-                clipPath:
-                  "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-              }}
-            />
-          </div>
-          <div className="pt-20 lg:mt-10">
-            <div className="max-w-7xl mx-auto mt-5 lg:mt-20 text-center">
+        <div className="relative px-6 pt-14 lg:px-8">
+          <div className="shape absolute h-72 top-52 right-[8vw] rounded-3xl bg-purple-100  w-96 md:h-96"></div>
+
+          <img
+            alt="hero-block"
+            src="hero-block.png"
+            className="hidden lg:block absolute w-[35vw] h-[35vw] top-36 right-16 object-contain"
+          />
+
+          <div className="relative pt-20 lg:mt-10">
+            <div className="max-w-7xl z-1 mx-auto mt-5 lg:mt-20">
+              <h2 className="text-sm font-semibold leading-7 text-primary uppercase"></h2>
               <h1 className="text-4xl tracking-tight text-gray-900  lg:text-[6rem] lg:leading-none ">
                 Your standard, your blockchain
               </h1>
-              <p className="mx-auto mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-600">
+              <p className="mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-600">
                 Establish a standard among your stakeholders, orchestrate
                 processes, and ensure compliance, all in one place.
               </p>
-              <div className="flex-col mt-16 flex items-center justify-center gap-6 lg:flex-row">
+              <div className="flex-col mt-16 flex items-center  gap-6 lg:flex-row">
                 <a
                   href="#start-trial"
-                  className="rounded-full w-full lg:w-fit bg-black px-5 py-2 text-lg font-semibold text-white hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
+                  className="text-center rounded-full w-full lg:w-fit bg-black px-6 py-3 text-lg font-semibold text-white hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
                 >
                   Try now for free
                 </a>
@@ -39,18 +36,6 @@ export default function Hero() {
                 </a>
               </div>
             </div>
-          </div>
-          <div
-            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-            aria-hidden="true"
-          >
-            <div
-              className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#50bcff] to-[#ff6ada] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-              style={{
-                clipPath:
-                  "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-              }}
-            />
           </div>
         </div>
       </div>
