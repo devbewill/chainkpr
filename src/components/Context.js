@@ -3,11 +3,11 @@ export default function Context() {
     <section className="context ">
       <div className="my-20 mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mt-8 grid items-center grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-          <div className="space-y-4 text-xl">
+          <div className="space-y-4 text-base">
             <h2 className="text-sm font-semibold text-primary uppercase">
               We get you
             </h2>
-            <h2 className="mt-2 text-2xl md:text-4xl md:mb-8">
+            <h2 className="mt-2 text-xl lg:text-4xl md:mb-8">
               Unifying diverse data flows and ensuring trust among stakeholders
               is not a piece of cake
             </h2>

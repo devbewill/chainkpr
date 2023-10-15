@@ -2,7 +2,7 @@ export default function ProductInfo() {
   return (
     <section className="ProductInfo">
       <div className=" mx-auto">
-        <div className="bg-gray-900 px-6 py-5 lg:flex">
+        <div className="relative bg-gray-900 px-6 py-5 lg:flex">
           <svg
             viewBox="0 0 1024 1024"
             className="absolute left-1/2 -z-10 h-[50rem] w-[50rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -26,12 +26,12 @@ export default function ProductInfo() {
             <h2 className="text-sm font-semibold text-primary uppercase">
               Leave the tech to us
             </h2>
-            <p className="mt-6 text-3xl leading-10 font-black text-gray-100">
+            <p className="mt-6 text-xl lg:text-3xl lg:leading-10 font-black text-gray-100">
               We understand that your expertise lies in your business, not
               managing complex technology. That's where we come in. With Datome,
               you have the power to construct your own ecosystem with ease.
             </p>
-            <p className="mt-6 text-2xl leading-10 text-gray-100">
+            <p className="mt-6 text-lg lg:text-2xl lg:leading-10 text-gray-100">
               Whether it's managing processes, permissions, or setting rules,
               our user-friendly editor empowers you to shape your digital world
               without the need for coding expertise. You focus on your vision,
