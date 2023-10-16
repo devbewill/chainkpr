@@ -5,7 +5,7 @@ export default function HowWorks() {
       title: "What is the core of your process?",
       description:
         "In the first step, you identify the core element of your process. This could be a physical asset, such as a bag, or a digital asset, like a contract. The blue-print of this asset will be represented by what we call in Datome a Model, i.e. a JSON schema that describes all the characteristics and rules of the asset.",
-      image: "how1.png",
+      image: "how1.jpg",
     },
     {
       intro: "Match the traits of your data-flow",
@@ -96,7 +96,7 @@ export default function HowWorks() {
                   : "relative h-64 overflow-hidden rounded-lg sm:h-80 "
               }
             >
-              <svg
+              {/* <svg
                 viewBox="0 0 200 200"
                 className="fill-slate-100"
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,11 +105,11 @@ export default function HowWorks() {
                   d="M42.3,-69.8C51.5,-60,53.3,-42.6,61.3,-27.4C69.3,-12.1,83.3,0.9,79.9,10.1C76.5,19.3,55.5,24.6,42.8,34.2C30,43.9,25.6,57.8,17.4,61.1C9.2,64.4,-2.7,57,-17.2,54.6C-31.7,52.1,-48.8,54.6,-57.1,47.9C-65.3,41.1,-64.7,25.2,-66.4,9.9C-68,-5.4,-72,-20,-64.8,-27C-57.6,-34.1,-39.4,-33.5,-26.7,-41.8C-14.1,-50.1,-7,-67.3,4.8,-74.7C16.6,-82.1,33.1,-79.7,42.3,-69.8Z"
                   transform="translate(100 100)"
                 />
-              </svg>
+              </svg> */}
               <img
                 alt={item.name}
                 src={`./howworks/${item.image}`}
-                className="absolute inset-0 h-full w-9/12 object-contain"
+                className="absolute h-full w-9/12 object-contain "
               />
             </div>
           </div>
