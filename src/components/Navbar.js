@@ -169,14 +169,14 @@ export default function Navbar() {
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
-        <div className="fixed inset-0 z-10" />
+        <div className="fixed inset-0 z-10 " />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex justify-between">
             <div className="flex lg:flex-1">
               <a href="/" className="flex -m-1.5 p-1.5">
                 <span className="sr-only">datome</span>
                 <img
-                  src="/datome.svg"
+                  src="/datome-black.svg"
                   class="mr-01 h-10 fill-black"
                   alt="datome Logo"
                 />

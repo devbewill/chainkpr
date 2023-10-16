@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="hero bg-secondary overflow-hidden pb-10 md:min-h-[95vh]">
       <div className="">
         <div className="relative px-6 pt-14 lg:px-8">
-          <div className="shape rotate-[55deg] absolute top-20 -right-72 lg:top-52 lg:right-[8vw] rounded-3xl bg-primary  w-96 h-96"></div>
+          <div className="shape rotate-[55deg] absolute top-20 -right-72 lg:top-52 lg:right-[8vw] rounded-3xl bg-[#ffc8ef]  w-96 h-96"></div>
 
           <img
             alt="hero-block"
