@@ -34,7 +34,7 @@ export default function WhyUse() {
     {
       name: "Data-driven decision making",
       description:
-        "Datome ensures that you can trust your data, enabling confident, data-driven choices.",
+        "Datome ensures that you can trust your data and processes, enabling confident, data-driven choices.",
       icon: PresentationChartBarIcon,
     },
   ];
@@ -43,7 +43,7 @@ export default function WhyUse() {
     <section className="Whyuse">
       <div className="mx-auto max-w-7xl pb-16 px-6 ">
         <div className="bg-white  lg:py-32">
-          <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16">
+          <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-16">
             <div className="mx-auto max-w-2xl">
               <h2 className="font-semibold leading-7 text-primary uppercase">
                 So why
@@ -59,20 +59,23 @@ export default function WhyUse() {
                 Datome can make a substantial impact.
               </p>
             </div>
-            <div className="grid gap-8 ">
+            <div className="grid gap-8 col-span-2">
               {whyList.map((item) => (
-                <div key={item.name} className="relative lg:pl-16">
-                  <h3 className=" text-gray-900 text-lg">
-                    <div className="absolute left-0 top-0 lg:flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                      <item.icon
-                        className="h-6 w-6 text-white"
-                        aria-hidden="true"
-                      />
+                <div
+                  key={item.name}
+                  className="flex flex-col lg:flex-row relative lg:pl-16"
+                >
+                  <div className="flex lg:pr-6 py-3 ">
+                    <item.icon
+                      className="h-10 w-10 text-primary"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <div className="">
+                    <h3 className=" text-gray-900 text-lg">{item.name}</h3>
+                    <div className="mt-2 text-base text-gray-600">
+                      {item.description}
                     </div>
-                    {item.name}
-                  </h3>
-                  <div className="mt-2 text-base text-gray-600">
-                    {item.description}
                   </div>
                 </div>
               ))}

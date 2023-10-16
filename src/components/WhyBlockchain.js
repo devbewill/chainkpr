@@ -23,7 +23,7 @@ export default function WhyBlockchain() {
   ];
 
   return (
-    <section className="whyBlockchain bg-secondary">
+    <section className="whyBlockchain bg-black text-white">
       <div className="mx-auto max-w-7xl py-10 px-6 ">
         <h2 className="text-sm font-semibold text-primary uppercase">
           Last but not least

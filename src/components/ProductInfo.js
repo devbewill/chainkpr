@@ -2,7 +2,7 @@ export default function ProductInfo() {
   return (
     <section className="ProductInfo">
       <div className=" mx-auto">
-        <div className="relative overflow-hidden bg-gray-900 px-6 py-10 lg:flex">
+        <div className="relative overflow-hidden bg-black px-6 py-10 lg:flex">
           <svg
             viewBox="0 0 1024 1024"
             className="absolute left-1/2 -z-10 h-[50rem] w-[50rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -40,21 +40,12 @@ export default function ProductInfo() {
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
                 href="#book-a-demo"
-                className="rounded-full text-center w-full lg:w-fit bg-primary px-5 py-3 text-md font-semibold text-white hover:bg-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition"
+                className="rounded-full text-center w-full lg:w-fit bg-primary px-6 py-3 text-md font-semibold  hover:bg-white  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition"
               >
                 Book a demo
               </a>
             </div>
           </div>
-          {/* <div className="relative mt-16 h-100 lg:mt-8">
-            <img
-              className="absolute left-0 top-0 w-[50rem] max-w-none rounded-md  bg-white/5 "
-              src="./asset.jpg"
-              alt="App screenshot"
-              width={1824}
-              height={1080}
-            />
-          </div> */}
         </div>
       </div>
     </section>
