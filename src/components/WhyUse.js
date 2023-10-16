@@ -1,8 +1,9 @@
 import {
-  ArrowPathIcon,
+  CheckBadgeIcon,
+  ChatBubbleBottomCenterTextIcon,
   CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
+  ShieldCheckIcon,
+  PresentationChartBarIcon,
 } from "@heroicons/react/24/outline";
 export default function WhyUse() {
   const whyList = [
@@ -16,25 +17,25 @@ export default function WhyUse() {
       name: "Intellectual property certification",
       description:
         "Protect your intellectual property with Datome's robust certification system. Prevent unauthorized usage and establish the rightful owner of your intellectual assets.",
-      icon: LockClosedIcon,
+      icon: ShieldCheckIcon,
     },
     {
       name: "Audits",
       description:
         "Map and secure the most  risk-prone aspects of your processes, providing invaluable insights into areas often subject to audits. Simplify the process of responding to third-party claims, as you can provide a verifiable and tamper-proof record of your activities.",
-      icon: ArrowPathIcon,
+      icon: CheckBadgeIcon,
     },
     {
       name: "Story telling",
       description:
         "Blockchain technology allows you to tell a compelling and verifiable story of your product's journey. Whether you're showcasing a product's development, features, or quality, Datome helps you narrate your product's story with confidence.",
-      icon: FingerPrintIcon,
+      icon: ChatBubbleBottomCenterTextIcon,
     },
     {
       name: "Data-driven decision making",
       description:
         "Datome ensures that you can trust your data, enabling confident, data-driven choices.",
-      icon: FingerPrintIcon,
+      icon: PresentationChartBarIcon,
     },
   ];
 
@@ -62,7 +63,7 @@ export default function WhyUse() {
               {whyList.map((item) => (
                 <div key={item.name} className="relative lg:pl-16">
                   <h3 className=" text-gray-900 text-lg">
-                    <div className="hidden absolute left-0 top-0 lg:flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                    <div className="absolute left-0 top-0 lg:flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                       <item.icon
                         className="h-6 w-6 text-white"
                         aria-hidden="true"

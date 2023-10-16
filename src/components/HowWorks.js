@@ -26,21 +26,21 @@ export default function HowWorks() {
       title: "Are there steps in your process that are not fixed?",
       description:
         "Is your workflow made up of also unpredictable events or is the data describing your asset ever-changing? Set up the possibility to make updates and add events to always have at hand the tool to unfailingly describe any particularity of your process.",
-      image: "how4.jpg",
+      image: "event.png",
     },
     {
       intro: "Instill logic",
       title: "Are there other entities connected to your asset?",
       description:
         "Explore the relationships and connections between your asset and other entities within your ecosystem. Is your bag made up of different kinds of leather? This is what we call a relation.",
-      image: "how4.jpg",
+      image: "relation.png",
     },
     {
       intro: "Assign the responsabilities",
       title: "Who can do what?",
       description:
         "Determine who has access to your ecosystem and what actions they can perform. By setting the authorized groups, you create a secure and efficient environment for stakeholders to collaborate effectively.",
-      image: "how6.png",
+      image: "how4.jpg",
     },
     {
       intro: "Ready, set, go!",
@@ -109,7 +109,7 @@ export default function HowWorks() {
               <img
                 alt={item.name}
                 src={`./howworks/${item.image}`}
-                className="absolute h-full w-9/12 object-contain "
+                className="absolute h-full w-full lg:w-9/12 object-contain "
               />
             </div>
           </div>
