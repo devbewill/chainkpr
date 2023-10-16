@@ -1,7 +1,7 @@
 export default function Context() {
   return (
     <section className="context overflow-hidden ">
-      <div className="my-10 mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="my-10 lg:my-20 mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mt-8 grid items-center grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="space-y-4 text-base">
             <h2 className="text-sm font-semibold text-primary uppercase">
