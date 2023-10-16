@@ -38,7 +38,7 @@ export default function Features() {
         {/* <h2 className="text-sm font-semibold text-primary uppercase">
           Features
         </h2> */}
-        <h2 className="mt-2 text-2xl md:text-xl md:mb-8">
+        <h2 className="mt-2 text-xl lg:text-2xl md:mb-8">
           Some things Datome can do for you
         </h2>
 

@@ -6,7 +6,7 @@ export default function Contacts() {
       <h1 className="text-2xl text-center font-black lg:text-5xl">
         Are you ready to try now ?
       </h1>
-      <div className="lg:flex mx-auto max-w-screen-xl py-20 md:px-6 gap-10 ">
+      <div className="lg:flex mx-auto max-w-screen-xl pt-20 lg:py-20 md:px-6 gap-10 ">
         {/* left */}
 
         <div
@@ -73,12 +73,16 @@ export default function Contacts() {
         {/* right */}
 
         <div id="book-a-demo" className=" lg:w-1/2 ">
-          <h2 class="text-sm font-semibold text-primary uppercase">Option 2</h2>
+          <div className="px-6">
+            <h2 class="text-sm font-semibold text-primary uppercase">
+              Option 2
+            </h2>
 
-          <h1 class="my-5 text-xl text-black max-w-lg ">
-            Or maybe you prefer
-            <span className="text-primary"> book a meeting</span> with us?
-          </h1>
+            <h1 class="my-5 text-xl text-black max-w-lg ">
+              Or maybe you prefer
+              <span className="text-primary"> book a meeting</span> with us?
+            </h1>
+          </div>
           <div className="mx-auto p-6 pb-0 bg-white lg:rounded-xl lg:shadow-xl ">
             <p className="my-5 text-lg max-w-lg text-gray-600 ">
               In a 30-minute call, Datome’s team will help you to: ‍ <br></br>
