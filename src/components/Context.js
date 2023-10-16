@@ -27,11 +27,11 @@ export default function Context() {
             </p>
           </div>
 
-          <div className="relative bg-secondary h-64 overflow-hidden  sm:h-80 lg:h-full">
+          <div className="relative shadow-2xl bg-secondary h-64 overflow-hidden  sm:h-80 lg:h-full">
             <img
               alt="standard"
               src="standard.png"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-contain"
             />
           </div>
         </div>

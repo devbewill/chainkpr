@@ -78,7 +78,7 @@ export default function HowWorks() {
           >
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <p className="text-sm font-semibold  text-gray-500 uppercase">
+                <p className="text-sm font-semibold  text-primary uppercase">
                   {item.intro}
                 </p>
                 <h3 className="mt-2 font-semibold text-gray-900 text-lg">

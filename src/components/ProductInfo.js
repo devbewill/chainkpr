@@ -40,7 +40,7 @@ export default function ProductInfo() {
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
                 href="#book-a-demo"
-                className="rounded-full text-center w-full lg:w-fit bg-primary px-5 py-2 text-lg font-semibold text-white hover:bg-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition"
+                className="rounded-full text-center w-full lg:w-fit bg-primary px-5 py-3 text-md font-semibold text-white hover:bg-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition"
               >
                 Book a demo
               </a>

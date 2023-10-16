@@ -157,7 +157,7 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
             href="#start-trial"
-            className="rounded-full ring-2 ring-black px-5 py-3 text-lg font-semibold shadow-sm hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
+            className="rounded-full ring-2 ring-black px-5 py-3 text-md font-semibold shadow-sm hover:shadow-2xl  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
           >
             Start trial <span aria-hidden="true">&rarr;</span>
           </a>

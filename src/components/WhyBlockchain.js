@@ -23,17 +23,16 @@ export default function WhyBlockchain() {
   ];
 
   return (
-    <section className="whyBlockchain bg-slate-100">
+    <section className="whyBlockchain bg-secondary">
       <div className="mx-auto max-w-7xl py-10 px-6 ">
         <h2 className="text-sm font-semibold text-primary uppercase">
           Last but not least
         </h2>
 
-        <p className="mt-2 md:mb-8">
-          <span className="font-black text-2xl lg:text-4xl">
+        <p className="mt-2 max-w-4xl text-xl md:mb-8">
+          <span className="block font-black  pb-3 text-2xl lg:text-4xl">
             Why blockchain?
           </span>
-          <br></br>
           You might wonder why, with existing process orchestration systems in
           place, you should consider Datome and blockchain technology. The
           answer lies in the uniqueness of out blockchain.

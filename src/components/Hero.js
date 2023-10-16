@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    <section className="hero pb-10 md:min-h-[95vh]">
-      <div className="bg-white">
+    <section className="hero bg-secondary pb-10 md:min-h-[95vh]">
+      <div className="">
         <div className="relative px-6 pt-14 lg:px-8">
-          <div className="shape absolute h-72 top-52 right-[8vw] rounded-3xl bg-purple-100  w-96 md:h-96"></div>
+          <div className="shape hidden lg:block absolute h-72 top-52 right-[8vw] rounded-3xl bg-[#ff2ae331]  w-96 md:h-96"></div>
 
           <img
             alt="hero-block"
@@ -17,20 +17,20 @@ export default function Hero() {
               <h1 className="text-4xl tracking-tight text-gray-900  lg:text-[6rem] lg:leading-none ">
                 Your standard, your blockchain
               </h1>
-              <p className="mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-600">
+              <p className="mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-500">
                 Establish a standard among your stakeholders, orchestrate
                 processes, and ensure compliance, all in one place.
               </p>
               <div className="flex-col mt-16 flex items-center  gap-6 lg:flex-row">
                 <a
                   href="#start-trial"
-                  className="text-center rounded-full w-full lg:w-fit bg-black px-6 py-3 text-lg font-semibold text-white hover:bg-primary  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
+                  className="text-center rounded-full w-full lg:w-fit bg-black text-white px-6 py-3 text-md font-semibold hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition"
                 >
                   Try now for free
                 </a>
                 <a
                   href="#book-a-demo"
-                  className="text-lg font-semibold leading-6  hover:text-primary transition"
+                  className="text-md font-semibold leading-6  hover:text-primary transition"
                 >
                   <span aria-hidden="true">Book a demo →</span>
                 </a>
