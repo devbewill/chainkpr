@@ -1,7 +1,7 @@
 export default function Features() {
   const features = [
     {
-      name: "Personalized blockchain standards",
+      name: "Personalized blockchain",
       description:
         "Datome empowers you to create a personalized blockchain standard tailored to your specific business needs.",
       image: "1.png",
@@ -21,7 +21,7 @@ export default function Features() {
     {
       name: "Compliance assurance",
       description:
-        "Datome minimizes the risk of legal disputes and ensuring that your operations meet all necessary requirements.",
+        "Datome minimizes the risk of legal disputes and ensuring that your operations meet all requirements.",
       image: "4.png",
     },
     // {
@@ -39,7 +39,7 @@ export default function Features() {
           Features
         </h2> */}
         <h2 className="mt-2 text-2xl md:text-xl md:mb-8">
-          Five things Datome can do for you
+          Some things Datome can do for you
         </h2>
 
         <div className="mt-8 grid grid-cols-1 gap-2 md:mt-16 md:grid-cols-2 lg:grid-cols-4">
@@ -54,9 +54,9 @@ export default function Features() {
                 className=" w-24 pt-6 pb-10 mx-auto"
               />
               <div>
-                <h3 className=" text-xl">{item.name}</h3>
+                <h3 className="text-xl">{item.name}</h3>
 
-                <p className="mt-2 text-base ">{item.description}</p>
+                <p className="py-3 text-base ">{item.description}</p>
               </div>
             </div>
           ))}

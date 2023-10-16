@@ -2,7 +2,10 @@ import { InlineWidget } from "react-calendly";
 
 export default function Contacts() {
   return (
-    <section className="contacts bg-gray-900">
+    <section className="contacts pt-16 ">
+      <h1 className="text-2xl text-center font-black lg:text-5xl">
+        Are you ready to try now ?
+      </h1>
       <div className="lg:flex mx-auto max-w-screen-xl py-20 md:px-6 gap-10 ">
         {/* left */}
 
@@ -10,14 +13,12 @@ export default function Contacts() {
           id="start-trial"
           className="lg:w-1/2  px-6 pb-10 border-r-2 border-gray-300"
         >
-          <h1 className="text-4xl text-white md:text-5xl">
-            Are you ready to try now?
+          <h2 class="text-sm font-semibold text-primary uppercase">Option 1</h2>
+          <h1 className="my-5 text-xl text-black max-w-lg ">
+            Enjoy a fully functional{" "}
+            <span className="text-primary">30 days sandbox </span>so you can
+            test in self provisioning the features of Datome.
           </h1>
-
-          <p className="my-5 text-lg max-w-lg text-gray-300 ">
-            Enjoy a fully functional 30 days sandbox so you can test in self
-            provisioning the features of Datome.
-          </p>
 
           <form action="" class="mt-10">
             <input
@@ -62,7 +63,7 @@ export default function Contacts() {
             </div>
             <button
               type="submit"
-              class="mt-10 rounded-full w-full bg-white px-6 py-3 text-black font-bold hover:bg-primary transition"
+              class="mt-10 rounded-full w-full md:w-fit bg-black text-white px-6 py-3  font-bold hover:bg-primary transition"
             >
               Start a trial
             </button>
@@ -72,12 +73,13 @@ export default function Contacts() {
         {/* right */}
 
         <div id="book-a-demo" className=" lg:w-1/2 ">
-          <div className="mx-auto p-6 pb-0 bg-white lg:rounded-xl lg:shadow-xl ">
-            <h1 className="text-xl text-black">
-              Or maybe you prefer{" "}
-              <span className="text-primary">book a meeting</span> with us?
-            </h1>
+          <h2 class="text-sm font-semibold text-primary uppercase">Option 2</h2>
 
+          <h1 class="my-5 text-xl text-black max-w-lg ">
+            Or maybe you prefer
+            <span className="text-primary"> book a meeting</span> with us?
+          </h1>
+          <div className="mx-auto p-6 pb-0 bg-white lg:rounded-xl lg:shadow-xl ">
             <p className="my-5 text-lg max-w-lg text-gray-600 ">
               In a 30-minute call, Datome’s team will help you to: ‍ <br></br>
               <br></br>

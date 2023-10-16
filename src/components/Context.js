@@ -7,7 +7,7 @@ export default function Context() {
             <h2 className="text-sm font-semibold text-primary uppercase">
               We get you
             </h2>
-            <h2 className="mt-2 text-xl lg:text-4xl md:mb-8">
+            <h2 className="mt-2 text-xl md:mb-8 lg:text-3xl">
               Unifying diverse data flows and ensuring trust among stakeholders
               is not a piece of cake
             </h2>
@@ -27,11 +27,11 @@ export default function Context() {
             </p>
           </div>
 
-          <div className="relative shadow-2xl bg-secondary h-64 overflow-hidden  sm:h-80 lg:h-full">
+          <div className="relative h-72 lg:h-full">
             <img
               alt="standard"
-              src="standard.png"
-              className="absolute inset-0 w-full h-full object-contain"
+              src="asset.jpg"
+              className="absolute max-w-xl lg:max-w-[140%] lg:-top-14 shadow-2xl rounded-3xl ring-2 ring-black"
             />
           </div>
         </div>

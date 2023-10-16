@@ -50,7 +50,7 @@ export default function WhyUse() {
               <h2 className="mt-2 text-3xl tracking-tight text-gray-900 sm:text-4xl">
                 Why should you use Datome?
               </h2>
-              <p className="mt-6 lg:text-lg lg:leading-8 text-gray-600">
+              <p className="mt-6 lg:text-lg  text-gray-600">
                 Datome is a versatile platform designed to deliver benefits to
                 businesses across various industries, regardless of their size
                 or scale. While Datome's flexibility ensures that it can be
