@@ -38,7 +38,7 @@ export default function WhyBlockchain() {
           answer lies in the uniqueness of out blockchain.
         </p>
 
-        <div className="mt-8 pt-8 border-t border-gray-600  grid gap-y-10 grid-cols-1 gap-2 md:mt-8  md:grid-cols-2 lg:grid-cols-4 divide-x md:divide-gray-600 ">
+        <div className="mt-8 pt-8 border-t border-gray-600  grid gap-y-10 grid-cols-1 gap-2 md:mt-8  md:grid-cols-2 lg:grid-cols-4 lg:divide-x divide-gray-600 ">
           {blockchain.map((item) => (
             <div key={item.name} className="flex items-start md:p-4">
               <div className="">

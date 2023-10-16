@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    <section className="hero bg-secondary pb-10 md:min-h-[95vh]">
+    <section className="hero bg-secondary overflow-hidden pb-10 md:min-h-[95vh]">
       <div className="">
         <div className="relative px-6 pt-14 lg:px-8">
-          <div className="shape hidden lg:block rotate-[55deg] absolute h-72 top-52 right-[8vw] rounded-3xl bg-accent  w-96 md:h-96"></div>
+          <div className="shape rotate-[55deg] absolute top-20 -right-72 lg:top-52 lg:right-[8vw] rounded-3xl bg-primary  w-96 h-96"></div>
 
           <img
             alt="hero-block"
@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="relative pt-20 lg:mt-10">
             <div className="max-w-7xl z-1 mx-auto mt-5 lg:mt-20">
               <h2 className="text-sm font-semibold leading-7 text-primary uppercase"></h2>
-              <h1 className="text-4xl tracking-tight text-gray-900  lg:text-[6rem] lg:leading-none ">
+              <h1 className="text-4xl font-bold lg:font-semibold tracking-tight text-gray-900  lg:text-[6rem] lg:leading-none ">
                 Your standard, your blockchain
               </h1>
               <p className="mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-500">
