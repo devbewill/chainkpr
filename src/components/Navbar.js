@@ -142,7 +142,7 @@ export default function Navbar() {
             Articles
           </a> */}
           <a
-            href="./faq"
+            href="/faq"
             className=" font-semibold leading-6 text-gray-900 hover:text-primary transition"
           >
             Faq
@@ -222,7 +222,7 @@ export default function Navbar() {
                   About us
                 </a>
                 <a
-                  href="./faq"
+                  href="/faq"
                   className="-mx-3 block px-3 py-5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Faq
