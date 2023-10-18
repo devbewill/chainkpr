@@ -1,6 +1,6 @@
 import { League_Gothic, Poppins, Cabin, Lora } from "next/font/google";
 import "@/styles/globals.css";
-import ThemeChanger from "@/components/ThemeChanger";
+// import ThemeChanger from "@/components/ThemeChanger";
 
 const leagueGothic = League_Gothic({
   subsets: ["latin"],
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
           --lora-font: ${lora.style.fontFamily};
         }
       `}</style>
-      <ThemeChanger></ThemeChanger>
+      {/* <ThemeChanger></ThemeChanger> */}
       <Component {...pageProps} />
     </>
   );
