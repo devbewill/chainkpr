@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero overflow-hidden pb-10 md:min-h-[95vh]">
+    <section className="hero overflow-hidden pb-10 md:min-h-[95vh] ">
       <div className="">
         <div className="relative px-6 pt-14 lg:px-8">
           <div className="shape rotate-[55deg] absolute top-20 -right-72 lg:top-52 lg:right-[8vw] rounded-3xl bg-primary  w-96 h-96"></div>

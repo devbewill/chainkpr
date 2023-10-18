@@ -42,7 +42,7 @@ export default function WhyUse() {
   return (
     <section className="Whyuse">
       <div className="mx-auto max-w-7xl pb-16 px-6 ">
-        <div className="bg-white  lg:py-32">
+        <div className="lg:py-32">
           <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-16">
             <div className="mx-auto max-w-2xl">
               <h2 className="font-semibold leading-7 text-primary uppercase">

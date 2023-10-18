@@ -1,6 +1,6 @@
 export default function PartnersLogos() {
   return (
-    <section className="partners bg-secondary">
+    <section className="partners">
       <div className="mx-auto max-w-7xl px-6 pt-5 pb-14">
         <p className="text-center text-xs font-semibold uppercase">
           trusted by

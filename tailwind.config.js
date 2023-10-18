@@ -1,37 +1,30 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: "class",
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/forms"),
-    require("daisyui"),
-  ],
-  daisyui: {
-    themes: [
-      {
-        datome: {
-          primary: "#f208b8",
-          secondary: "#f8f8f8",
-          accent: "#37cdbe",
-          neutral: "#111111",
-          "base-100": "#ffffff",
-          "base-content": "#111111",
-        },
-        mangrovia: {
-          primary: "#05a9bd",
-          secondary: "#f8f8f8",
-          accent: "#37cdbe",
-          neutral: "#3d4451",
-          "base-100": "#ffffff",
-          "base-content": "#111",
-        },
-      },
-      "light",
-      "dark",
-      "cupcake",
-    ],
-    base: true,
-    darkTheme: "mangrovia",
-  },
-};
+
+//added tw-colors plugin to use multiple themes
+import { createThemes } from "tw-colors";
+
+export const darkMode = "class";
+export const content = ["./src/**/*.{js,ts,jsx,tsx,mdx}"];
+export const plugins = [
+  require("@tailwindcss/typography"),
+  require("@tailwindcss/forms"),
+  createThemes({
+    mangrovia: {
+      primary: "#0cbdbd",
+      secondary: "#f6f6f6",
+    },
+    datome: {
+      primary: "#ff00dd",
+      secondary: "#f6f6f6",
+    },
+    fluo: {
+      primary: "#caff00",
+      secondary: "#f6f6f6",
+    },
+    darkz: {
+      primary: "#2808f9",
+      secondary: "#2808f9",
+    },
+    // defaultTheme: "datome",
+  }),
+];

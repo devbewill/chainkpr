@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { themeChange } from "theme-change";
 
 export default function ThemeChanger() {
-  const themeValues = ["datome", "neon", "lorem", "mangrovia", "light", "dark"];
+  const themeValues = ["datome", "mangrovia", "fluo", "darkz"];
 
   useEffect(() => {
     themeChange(false);
