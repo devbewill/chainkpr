@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="relative pt-20 lg:mt-10">
             <div className="max-w-7xl z-1 mx-auto mt-5 lg:mt-20">
               <h2 className="text-sm font-semibold leading-7 text-primary uppercase"></h2>
-              <h1 className="text-4xl font-bold lg:font-semibold tracking-tight   lg:text-[6rem] lg:leading-none ">
+              <h1 className="text-4xl font-bold lg:font-semibold tracking-tight   lg:text-[7rem] lg:leading-none ">
                 Complex processes made easy
               </h1>
               <p className="mt-5 lg:text-3xl leading-6 max-w-4xl text-gray-500 ">
