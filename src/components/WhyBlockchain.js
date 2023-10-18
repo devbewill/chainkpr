@@ -43,7 +43,7 @@ export default function WhyBlockchain() {
           {blockchain.map((item) => (
             <div key={item.name} className="flex items-start md:p-4">
               <div className="">
-                <h3 className="text-xl">{item.name}</h3>
+                <h3 className="text-lg">{item.name}</h3>
 
                 <p className="mt-2 text-base">{item.description}</p>
               </div>

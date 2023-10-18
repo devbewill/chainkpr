@@ -1,49 +1,49 @@
 export default function HowWorks() {
   const howworks = [
     {
-      intro: "Start with a simple question",
+      intro: "01. Start with a simple question",
       title: "What is the core of your process?",
       description:
         "In the first step, you identify the core element of your process. This could be a physical asset, such as a bag, or a digital asset, like a contract. The blue-print of this asset will be represented by what we call in Datome a Model, i.e. a JSON schema that describes all the characteristics and rules of the asset.",
       image: "how1.jpg",
     },
     {
-      intro: "Match the traits of your data-flow",
+      intro: "02. Match the traits of your data-flow",
       title: "What describes your asset?",
       description:
         "Delve into the specific details that describe your asset. To do this, enrich your model with what we call properties. Properties are nothing more than the characteristics and data that describe the asset (e.g. the quantity or the type of material).",
       image: "how2.png",
     },
     {
-      intro: "Trace the path",
+      intro: "03. Trace the path",
       title: "What are the steps of your process?",
       description:
-        "Outline the sequence of actions that make up your process. Each actions will be represented by a state. The total chain of your states correspond to the rules of your workflow and will represent at the end the history fo your supply chain.",
+        "Outline the sequence of actions that make up your process. Each action will be represented by a state. The total chain of your states correspond to the rules of your workflow and will represent at the end the history of your supply chain.",
       image: "how3.png",
     },
     {
-      intro: "Predict the unpredictable",
+      intro: "04. Predict the unpredictable",
       title: "Are there steps in your process that are not fixed?",
       description:
         "Is your workflow made up of also unpredictable events or is the data describing your asset ever-changing? Set up the possibility to make updates and add events to always have at hand the tool to unfailingly describe any particularity of your process.",
       image: "event.png",
     },
     {
-      intro: "Instill logic",
+      intro: "05. Instill logic",
       title: "Are there other entities connected to your asset?",
       description:
         "Explore the relationships and connections between your asset and other entities within your ecosystem. Is your bag made up of different kinds of leather? This is what we call a relation.",
       image: "relation.png",
     },
     {
-      intro: "Assign the responsabilities",
+      intro: "06. Assign the responsabilities",
       title: "Who can do what?",
       description:
         "Determine who has access to your ecosystem and what actions they can perform. By setting the authorized groups, you create a secure and efficient environment for stakeholders to collaborate effectively.",
       image: "how4.jpg",
     },
     {
-      intro: "Ready, set, go!",
+      intro: "07. Ready, set, go!",
       title: "Start creating your assets",
       description:
         "Once you have everything set, you can start creating assets and having them go through the designed flow. For each asset, you get a customizable public web page that certifies the history of the changes and the rules that were followed.",

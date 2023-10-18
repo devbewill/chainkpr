@@ -34,8 +34,8 @@ export default function ProductInfo() {
             <p className="mt-6 text-lg lg:text-2xl lg:leading-10 text-gray-100">
               Whether it's managing processes, permissions, or setting rules,
               our user-friendly editor empowers you to shape your digital world
-              without the need for coding expertise. You focus on your vision,
-              we handle the technology.
+              without the need for coding expertise. <br></br>You focus on your
+              vision, we handle the technology.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
