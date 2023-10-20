@@ -36,8 +36,8 @@ export default function PartnersLogos() {
           />
           <img
             className="col-span-1 max-h-9 lg:max-h-8 w-full object-contain"
-            src="./partners/tinaba.svg"
-            alt="tinaba"
+            src="./partners/revo.svg"
+            alt="revo"
             width={158}
             height={48}
           />
