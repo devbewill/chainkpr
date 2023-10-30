@@ -23,10 +23,7 @@ export default function Hero() {
                 blockchain.
               </p>
               <div className="flex-col mt-16 flex items-center  gap-6 lg:flex-row">
-                <a
-                  href="#start-trial"
-                  className="text-center rounded-full w-full lg:w-fit bg-black text-white px-6 py-3 text-md font-semibold hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition"
-                >
+                <a href="#start-trial" className="btn  bg-black text-white">
                   Try now for free
                 </a>
                 <a

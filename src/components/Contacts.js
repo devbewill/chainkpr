@@ -49,7 +49,7 @@ export default function Contacts() {
                   Your email
                 </label>
               </div>
-              <div class="relative z-0 col-span-2">
+              <div class="pb-10 relative z-0 col-span-2">
                 <textarea
                   name="message"
                   rows="5"
@@ -63,7 +63,7 @@ export default function Contacts() {
             </div>
             <button
               type="submit"
-              class="mt-10 rounded-full w-full md:w-fit bg-black text-white px-6 py-3  font-bold hover:bg-primary transition"
+              class="btn bg-black text-white  hover:bg-primary"
             >
               Start a trial
             </button>

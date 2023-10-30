@@ -32,11 +32,6 @@ export default function Footer() {
                 </li>
                 <li className="mb-2">
                   <a href="/" className="hover:underline">
-                    FAQ
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/" className="hover:underline">
                     Docs
                   </a>
                 </li>
@@ -46,7 +41,7 @@ export default function Footer() {
               <h2 className="mb-6 font-semibold text-black ">Legal</h2>
               <ul className="text-gray-500">
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a href="privacy-policy" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>

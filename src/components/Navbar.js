@@ -141,12 +141,12 @@ export default function Navbar() {
           >
             Articles
           </a> */}
-          <a
+          {/* <a
             href="/faq"
             className=" font-semibold leading-6 text-gray-900 hover:text-primary transition"
           >
             Faq
-          </a>
+          </a> */}
           <a
             href="https://doc.datome.io/"
             className="font-semibold leading-6 text-gray-900 hover:text-primary transition"
@@ -155,10 +155,7 @@ export default function Navbar() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
-            href="#start-trial"
-            className="rounded-full ring-2 ring-black px-5 py-3 text-md font-semibold shadow-sm hover:shadow-2xl  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
-          >
+          <a href="#start-trial" className="btn ring-2 ring-black ">
             Start trial <span aria-hidden="true">&rarr;</span>
           </a>
         </div>

@@ -38,10 +38,7 @@ export default function ProductInfo() {
               vision, we handle the technology.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-              <a
-                href="#book-a-demo"
-                className="rounded-full text-center w-full lg:w-fit bg-primary text-white px-6 py-3 text-md font-semibold  hover:bg-accent  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition"
-              >
+              <a href="#book-a-demo" className="btn bg-primary text-white">
                 Book a demo
               </a>
             </div>

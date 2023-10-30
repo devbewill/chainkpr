@@ -1,5 +1,32 @@
 export const changelog = [
   {
+    version: "1.0.5",
+    released: "2023-10-18",
+    list: [
+      {
+        type: "added",
+        title: "Ability to delete models via API",
+        description: "",
+      },
+      {
+        type: "added",
+        title: "Ability to login multiple instances with the same email",
+        description: "",
+      },
+      {
+        type: "added",
+        title: "Asset form and view handling array of objects",
+        description: "",
+      },
+
+      {
+        type: "fixed",
+        title: "Fixed asset relations in tables",
+        description: "",
+      },
+    ],
+  },
+  {
     version: "1.0.4",
     released: "2023-10-03",
     list: [
