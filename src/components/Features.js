@@ -3,7 +3,7 @@ export default function Features() {
     {
       name: "Personalized blockchain",
       description:
-        "Datome empowers you to create a personalized blockchain standard tailored to your specific business needs.",
+        "Datome empowers you to create a personalized blockchain process tailored to your specific business needs.",
       image: "1.png",
     },
     {

@@ -18,25 +18,25 @@ export default function HowWorks() {
       intro: "03. Trace the path",
       title: "What are the steps of your process?",
       description:
-        "Outline the sequence of actions that make up your process. Each action will be represented by a state. The total chain of your states correspond to the rules of your workflow and will represent at the end the history of your supply chain.",
+        "Outline the sequence of actions that make up your process. Each action will be represented by a state. The total chain of your states corresponds to the rules of your workflow and will represent, in the end, the history of your supply chain.",
       image: "how3.png",
     },
     {
-      intro: "04. Predict the unpredictable",
+      intro: "04. Manage the unpredictable",
       title: "Are there steps in your process that are not fixed?",
       description:
-        "Is your workflow made up of also unpredictable events or is the data describing your asset ever-changing? Set up the possibility to make updates and add events to always have at hand the tool to unfailingly describe any particularity of your process.",
+        "Is your workflow also made up of unpredictable events or is the data describing your asset constantly evolving? Set up the ability to unfailingly describe any particularity of your process via Datome’s Events.",
       image: "event.png",
     },
     {
-      intro: "05. Instill logic",
+      intro: "05. Set relations",
       title: "Are there other entities connected to your asset?",
       description:
         "Explore the relationships and connections between your asset and other entities within your ecosystem. Is your bag made up of different kinds of leather? This is what we call a relation.",
       image: "relation.png",
     },
     {
-      intro: "06. Assign the responsabilities",
+      intro: "06. Assign responsabilities",
       title: "Who can do what?",
       description:
         "Determine who has access to your ecosystem and what actions they can perform. By setting the authorized groups, you create a secure and efficient environment for stakeholders to collaborate effectively.",
@@ -57,7 +57,7 @@ export default function HowWorks() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="">
               <h2 className="text-sm font-semibold leading-7 text-primary uppercase">
-                How magic happens
+                How the magic happens
               </h2>
               <h2 className="my-2 text-2xl tracking-tight text-gray-900 sm:text-4xl">
                 How it works

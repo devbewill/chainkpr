@@ -29,7 +29,7 @@ export default function ProductInfo() {
             <p className="mt-6 text-xl lg:text-3xl lg:leading-10 font-black text-gray-100">
               We understand that your expertise lies in your business, not
               managing complex technology. That's where we come in. With Datome,
-              you have the power to construct your own ecosystem with ease.
+              you have the power to build your own ecosystem with ease.
             </p>
             <p className="mt-6 text-lg lg:text-2xl lg:leading-10 text-gray-100">
               Whether it's managing processes, permissions, or setting rules,

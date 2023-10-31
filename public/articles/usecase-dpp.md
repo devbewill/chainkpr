@@ -1,6 +1,6 @@
 ---
-title: "Datome for European Digital Product Passport"
-excerpt: "Integrating Datome, an intelligent blockchain data modeling system, into the European Digital Product Passport (DPP) framework can bring several benefits by enhancing the management, analysis and utilization of data effectively."
+title: "Datome for the European Digital Product Passport"
+excerpt: "Integrating Datome, a blockchain-based business process manager, into the European Digital Product Passport (DPP) framework can bring several benefits by easing the management of production processes and availability of the relevant data by stakeholders."
 socialImage: assets/images/usecase-dpp.png
 date: "2023-01-02"
 tags:
@@ -19,9 +19,9 @@ In practical terms, the circular economy operates through a series of key strate
 
 The European Union has been a pioneering force in advancing the principles of the circular economy, with a central focus on three guiding principles:
 
-- Eliminate waste and pollution: this principle encourages businesses and industries to design products with a focus on longevity and sustainabilitys.
+- Eliminate waste and pollution: this principle encourages businesses and industries to design products with a focus on longevity and sustainability.
 
-- Circulate products and materials: through strategies like remanufacturing, refurbishment, and repurposing, products are given a new lease on life, reducing the demand for new resources.
+- Circulate products and materials: through strategies like remanufacturing, refurbishment, and repurposing, products are given a new life, reducing the demand for new resources.
 
 - Regenerate nature: the circular economy envisions a world where the exploitation of natural resources is balanced by ecosystem restoration efforts, ensuring that our activities do not degrade the environment but actively contribute to its renewal.
 
@@ -33,7 +33,7 @@ This commitment to the principles of the circular economy is precisely why the E
 
 Today's consumers are making more responsible choices showing a clear preference for brands that commit and prioritize sustainability.
 
-This shift reflects an awareness of environmental and social issues, prompting consumers to invest exclusively in companies that align with their values and actively contribute to a more sustainable future. This includes supporting initiatives that extend a product's lifespan and promote the reutilization of end-of-life items.
+This shift reflects an awareness of environmental and social issues, prompting consumers to prefer companies that align with their values and actively contribute to a more sustainable future. This includes supporting initiatives that extend a product's lifespan and promote the reutilization of end-of-life items.
 
 This evolving consumer behavior is reshaping the marketplace, encouraging businesses to adopt eco-friendly practices to meet the growing demand for sustainable products and services.
 
@@ -41,10 +41,10 @@ This evolving consumer behavior is reshaping the marketplace, encouraging busine
 
 To achieve a fully circular economy based on sustainability, climate-neutrality and resource-efficiency, the EU has introduced the Digital Product Passport.
 
-The DPP serves as a digital repository of a product's data, enabling complete traceability and streamlining end-of-life processes by providing clear disposal options.
+The DPP serves as a digital repository of a product's data, enabling the complete traceability and streamlining end-of-life processes by providing clear disposal options.
 
 **Digital Product Passport's goal:**
-The EU Digital Product Passport will provide accessible information to both consumers and businesses regarding the product’s environmental sustainability and its transparency within the supply chain, with the aim of increasing its lifespan.\*
+The EU Digital Product Passport will provide accessible information to both consumers and businesses regarding the product’s environmental sustainability and its transparency within the supply chain, with the aim of increasing its lifespan.
 
 **How will the Digital Product Passport be introduced?:**
 By simply scanning a product’s QR code (or RFID) you can access any information about the origin, material composition, repair and disassembly options as well as how the various components can be recycled.
@@ -83,7 +83,7 @@ From 2025, in the EU it will be mandatory for all products to have a Digital Pro
 
 ### DATOME
 
-Integrating Datome, an intelligent blockchain data modeling system, into the European Digital Product Passport (DPP) framework can bring several benefits by enhancing the management, analysis and utilization of data effectively.
+Integrating Datome, a blockchain-based business process manager, into the European Digital Product Passport (DPP) framework can bring several benefits by easing the management of production processes and availability of the relevant data by stakeholders.
 This integration can make the DPP a very powerful tool for promoting transparency, sustainability and trust in product information within the EU market while supporting the goals of the European Green Deal and circular economy initiatives by providing better and immutable insights into the lifecycle of products.
 
 ![bag-model](../assets/images/bag-model.png)
@@ -148,7 +148,7 @@ Leverage Datome’s powerful blockchain traceability platform to drive sustainab
 
 The Digital Product Passport will drive a profound shift in our approach to commerce, sustainability, and responsible consumption. It stands not merely as a tool but as a symbol of our commitment to a more transparent, ethical, and regenerative future.
 
-With the Digital Product Passport, we have the power to empower consumers to make informed choices, fostering a culture of responsible consumption. It streamlines supply chains, reducing inefficiencies, minimizing fraud, and optimizing logistics, resulting in cost savings for businesses while reducing their environmental footprint.
+With the Digital Product Passport, we have the opportunity to empower consumers to make informed choices, fostering a culture of responsible consumption. It streamlines supply chains, reducing inefficiencies, minimizing fraud, and optimizing logistics, resulting in cost savings for businesses while reducing their environmental footprint.
 
 This initiative transcends borders, inviting international collaboration on the path toward a more circular and sustainable global economy. It is not just about reducing our environmental impact; it's about actively regenerating nature through every product we create and consume.
 

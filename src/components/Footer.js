@@ -18,35 +18,38 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 font-semibold text-black ">Sections</h2>
+              <h2 className="mb-6 font-medium text-black ">Sections</h2>
               <ul className="text-gray-500">
                 <li className="mb-3">
-                  <a href="" className="hover:underline">
+                  <a href="" className="font-normal hover:underline">
                     About
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="" className="hover:underline">
+                  <a href="" className=" font-normal hover:underline">
                     Use cases
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/" className="hover:underline">
+                  <a href="/" className="font-normal hover:underline">
                     Docs
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 font-semibold text-black ">Legal</h2>
+              <h2 className="mb-6 font-medium text-black ">Legal</h2>
               <ul className="text-gray-500">
                 <li className="mb-2">
-                  <a href="privacy-policy" className="hover:underline">
+                  <a
+                    href="privacy-policy"
+                    className="font-normal hover:underline"
+                  >
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="font-normal hover:underline">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -56,9 +59,9 @@ export default function Footer() {
         </div>
         <hr className="my-6 sm:mx-auto  lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-black sm:text-center">
+          <span className="text-sm sm:text-center">
             © 2023{" "}
-            <a href="https://datome.io" className="hover:underline">
+            <a href="https://datome.io" className="font-normal hover:underline">
               Datome
             </a>
             . All Rights Reserved.
@@ -66,7 +69,7 @@ export default function Footer() {
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="#" className="text-black">
               <svg
-                className="w-5 h-5"
+                className="w-5 h-5 text-gray-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -76,7 +79,7 @@ export default function Footer() {
             </a>
             <a href="#" className="text-black">
               <svg
-                className="w-5 h-5 text-black"
+                className="w-5 h-5 text-gray-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -92,7 +95,7 @@ export default function Footer() {
             </a>
             <a href="#" className="text-black">
               <svg
-                className="w-6 h-6 text-black"
+                className="w-6 h-6 text-gray-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

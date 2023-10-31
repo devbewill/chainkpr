@@ -22,7 +22,7 @@ export default function WhyUse() {
     {
       name: "Audits",
       description:
-        "Map and secure the most  risk-prone aspects of your processes, providing invaluable insights into areas often subject to audits. Simplify the process of responding to third-party claims, as you can provide a verifiable and tamper-proof record of your activities.",
+        "Map and secure the most  risk-prone aspects of your processes, providing invaluable insights into areas often subject to audits. Simplify the process of responding to third-party claims as you can provide a verifiable and tamper-proof record of your activities.",
       icon: CheckBadgeIcon,
     },
     {

@@ -79,7 +79,7 @@ export default function Contacts() {
             </h2>
 
             <h1 class="my-5 text-xl text-black max-w-lg ">
-              Or maybe you prefer
+              Or maybe you prefer to
               <span className="text-primary"> book a meeting</span> with us?
             </h1>
           </div>
@@ -87,9 +87,9 @@ export default function Contacts() {
             <p className="my-5 text-lg max-w-lg text-gray-600 ">
               In a 30-minute call, Datome’s team will help you to: ‍ <br></br>
               <br></br>
-              💰 Understand the Cost Savings <br></br>✅ Learn How Setup Datome{" "}
-              <br></br>
-              🔗 Implement Blockchain with Datome
+              💰 Understand the cost savings <br></br>✅ Learn how to set up
+              Datome <br></br>
+              💡 Identify a first use case in your organization
             </p>
 
             <InlineWidget

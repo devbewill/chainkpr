@@ -3,7 +3,7 @@ export default function WhyBlockchain() {
     {
       name: "Centralized business logic",
       description:
-        "say goodbye to the complexity of scattered business process logic. With Datome, you can consolidate all aspects of your business logic in one central location. This not only streamlines your operations but also eradicates discrepancies that often arise from fragmented systems.",
+        "Say goodbye to the complexity of scattered business process logic. With Datome, you can consolidate all aspects of your business logic in one central location. This not only streamlines your operations but also eradicates discrepancies that often arise from fragmented systems.",
     },
 
     {
