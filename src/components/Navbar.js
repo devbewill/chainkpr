@@ -63,7 +63,7 @@ export default function Navbar() {
             <span className="sr-only">datome</span>
             <img
               src="/datome-black.svg"
-              class="mr-01 h-10 fill-black"
+              className="mr-01 h-10 fill-black"
               alt="datome Logo"
             />
           </a>
@@ -170,7 +170,7 @@ export default function Navbar() {
                 <span className="sr-only">datome</span>
                 <img
                   src="/datome-black.svg"
-                  class="mr-01 h-10 fill-black"
+                  className="mr-01 h-10 fill-black"
                   alt="datome Logo"
                 />
               </a>

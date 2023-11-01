@@ -14,7 +14,9 @@ export default function Contacts() {
           id="start-trial"
           className="lg:w-1/2  px-6 pb-10 border-r-2 border-gray-300"
         >
-          <h2 class="text-sm font-semibold text-primary uppercase">Option 1</h2>
+          <h2 className="text-sm font-semibold text-primary uppercase">
+            Option 1
+          </h2>
           <h1 className="my-5 text-xl text-black max-w-lg ">
             Enjoy a fully functional{" "}
             <span className="text-primary">30 days sandbox </span>so you can
@@ -28,11 +30,11 @@ export default function Contacts() {
 
         <div id="book-a-demo" className=" lg:w-1/2 ">
           <div className="px-6">
-            <h2 class="text-sm font-semibold text-primary uppercase">
+            <h2 className="text-sm font-semibold text-primary uppercase">
               Option 2
             </h2>
 
-            <h1 class="my-5 text-xl text-black max-w-lg ">
+            <h1 className="my-5 text-xl text-black max-w-lg ">
               Or maybe you prefer to
               <span className="text-primary"> book a meeting</span> with us?
             </h1>

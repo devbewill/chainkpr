@@ -6,8 +6,8 @@ export default function Faq() {
   return (
     <>
       <Layout>
-        <div class="mx-auto grid grid-cols-1 lg:grid-cols-3 max-w-7xl px-6 py-40">
-          <div class="self-start lg:sticky top-10 col-span-1 overflow-y-scroll">
+        <div className="mx-auto grid grid-cols-1 lg:grid-cols-3 max-w-7xl px-6 py-40">
+          <div className="self-start lg:sticky top-10 col-span-1 overflow-y-scroll">
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-primary uppercase">
                 Faq
@@ -26,7 +26,7 @@ export default function Faq() {
             </div>
           </div>
 
-          <div class="h-full col-span-2 ">
+          <div className="h-full col-span-2 ">
             <AccordionFaq></AccordionFaq>
           </div>
         </div>

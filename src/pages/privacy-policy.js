@@ -5,15 +5,15 @@ export default function Privacy() {
   return (
     <>
       <Layout>
-        <div class="mx-auto grid grid-cols-1 max-w-7xl px-6 py-40">
-          <div class="top-10">
+        <div className="mx-auto grid grid-cols-1 max-w-7xl px-6 py-40">
+          <div className="top-10">
             <h2 className="text-base font-semibold leading-7 text-primary uppercase">
               Version of 21 February 2023
             </h2>
             <p className="mt-2 mb-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Privacy policy
             </p>
-            <div class="content max-w-4xl text-lg">
+            <div className="content max-w-4xl text-lg">
               This Privacy Policy is intended to describe why and how{" "}
               <strong>Mangrovia Blockchain Solutions S.r.l. </strong>of Corso
               Venezia 54, 20121 Milan, Italy, VAT 10301800966 (“MBS”, “Company”
@@ -185,7 +185,7 @@ export default function Privacy() {
               The Company reserves the right to make changes to this Privacy
               Policy at any time, by giving notice of it by publishing it on its
               website{" "}
-              <a href="#" class="link">
+              <a href="#" className="link">
                 https://datome.io
               </a>
               .<br></br>‍<br></br>If the changes are particularly significant
