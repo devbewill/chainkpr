@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function ContactForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [formFeedback, setFormFeedback] = useState(null);
+  const [isFeedbackVisible, setIsFeedbackVisible] = useState(false);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -21,13 +22,13 @@ export default function ContactForm() {
   const FeedbackMessage = ({ status }) => {
     if (status === "success") {
       return (
-        <p className="bg-green-100 p-4 mt-10 rounded">
+        <p className="transition-opacity bg-green-100 p-4 mt-10 rounded">
           Email sent! Check your inbox e start now.
         </p>
       );
     } else if (status === "error") {
       return (
-        <p className="bg-red-100 p-4 mt-10 rounded">
+        <p className="transition-opacity bg-red-100 p-4 mt-10 rounded">
           ops.. error, retry later please.
         </p>
       );
@@ -40,9 +41,10 @@ export default function ContactForm() {
     event.preventDefault();
     setIsLoading(true);
     setFormFeedback(null);
+    setIsFeedbackVisible(true);
 
     try {
-      const response = await fetch("https://trial.datome.io/api/signup/", {
+      const response = await fetch("https://fftrial.datome.io/api/signup/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -61,6 +63,14 @@ export default function ContactForm() {
       setIsLoading(false);
     }
   }
+
+  useEffect(() => {
+    if (isFeedbackVisible) {
+      setTimeout(() => {
+        setIsFeedbackVisible(false);
+      }, 7000);
+    }
+  }, [isFeedbackVisible]);
 
   return (
     <div>
@@ -115,7 +125,7 @@ export default function ContactForm() {
           {isLoading ? "sending..." : "Start a Trial"}
         </button>
       </form>
-      <FeedbackMessage status={formFeedback} />
+      {isFeedbackVisible && <FeedbackMessage status={formFeedback} />}
     </div>
   );
 }
