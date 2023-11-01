@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 
-export default function ContactFormFeedback(props) {
-  const { visibility, status } = props;
-  const [isFeedbackVisible, setIsFeedbackVisible] = useState(false);
-
+export default function ContactFormFeedback({
+  isFeedbackVisible,
+  setIsFeedbackVisible,
+  status,
+}) {
   useEffect(() => {
-    if (visibility) {
-      setIsFeedbackVisible(true);
+    if (isFeedbackVisible) {
       setTimeout(() => {
         setIsFeedbackVisible(false);
       }, 3000);
     }
-  }, [visibility]);
+  }, [isFeedbackVisible]);
 
   if (status === "success") {
     return (

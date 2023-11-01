@@ -25,7 +25,7 @@ export default function ContactForm() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("https://trial.datome.io/api/signup/", {
+      const response = await fetch("https://ssstrial.datome.io/api/signup/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -43,6 +43,11 @@ export default function ContactForm() {
       setIsFeedbackVisible(true);
       console.error(error);
     } finally {
+      setFormData({
+        name: "",
+        email: "",
+        info: "",
+      });
       setIsLoading(false);
     }
   }
@@ -102,7 +107,8 @@ export default function ContactForm() {
       </form>
 
       <ContactFormFeedback
-        visibility={isFeedbackVisible}
+        isFeedbackVisible={isFeedbackVisible}
+        setIsFeedbackVisible={setIsFeedbackVisible}
         status={formFeedback}
       />
     </div>
