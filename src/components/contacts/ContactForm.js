@@ -24,7 +24,7 @@ export default function ContactForm() {
     event.preventDefault();
     setIsLoading(true);
 
-    const datomeUrl = "https://sssstrial.datome.io/api/signup";
+    const datomeUrl = "https://trial.datome.io/api/signup";
 
     try {
       const response = await fetch(datomeUrl, {
