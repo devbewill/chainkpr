@@ -24,8 +24,10 @@ export default function ContactForm() {
     event.preventDefault();
     setIsLoading(true);
 
+    const datomeUrl = "https://trial.datome.io/api/signup";
+
     try {
-      const response = await fetch("https://ssstrial.datome.io/api/signup/", {
+      const response = await fetch(datomeUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

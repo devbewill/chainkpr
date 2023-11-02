@@ -1,17 +1,17 @@
 import Head from "next/head";
 import Announcement from "@/components/Announcement";
 import Layout from "@/components/Layout";
-import Hero from "@/components/Hero";
-import ProductInfo from "@/components/ProductInfo";
-import Features from "@/components/Features";
-import PartnersLogos from "@/components/PartnersLogos";
-import HowWorks from "@/components/HowWorks";
-import Context from "@/components/Context";
-import Benefits from "@/components/Benefits";
-import WhyUse from "@/components/WhyUse";
-import WhyBlockchain from "@/components/WhyBlockchain";
-import Industries from "@/components/Industries";
-import Contacts from "@/components/Contacts";
+import Hero from "@/components/sections/Hero";
+import ProductInfo from "@/components/sections/ProductInfo";
+import Features from "@/components/sections/Features";
+import PartnersLogos from "@/components/sections/PartnersLogos";
+import HowWorks from "@/components/sections/HowWorks";
+import Context from "@/components/sections/Context";
+import Benefits from "@/components/sections/Benefits";
+import WhyUse from "@/components/sections/WhyUse";
+import WhyBlockchain from "@/components/sections/WhyBlockchain";
+import Industries from "@/components/sections/Industries";
+import Contacts from "@/components/contacts/Contacts";
 
 export default function Home() {
   return (
