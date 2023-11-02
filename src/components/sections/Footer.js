@@ -11,7 +11,7 @@ export default function Footer() {
                 alt="datome Logo"
               />
             </a>
-            <p className="pt-5">
+            <p>
               Mangrovia Blockchain Solutions <br></br>Corso Venezia 54
               <br></br>20121, Milano <br></br>VAT: IT10301800966
             </p>
@@ -20,18 +20,24 @@ export default function Footer() {
             <div>
               <h2 className="mb-6 font-medium text-black ">Sections</h2>
               <ul className="text-gray-500">
-                <li className="mb-3">
-                  <a href="" className="font-normal hover:underline">
+                <li>
+                  <a
+                    href="https://www.mangrovia.solutions/"
+                    className="font-normal hover:underline"
+                  >
                     About
                   </a>
                 </li>
-                <li className="mb-2">
-                  <a href="" className=" font-normal hover:underline">
+                <li>
+                  <a href="/articles" className=" font-normal hover:underline">
                     Use cases
                   </a>
                 </li>
-                <li className="mb-2">
-                  <a href="/" className="font-normal hover:underline">
+                <li>
+                  <a
+                    href="https://doc.datome.io/"
+                    className="font-normal hover:underline"
+                  >
                     Docs
                   </a>
                 </li>
@@ -40,17 +46,12 @@ export default function Footer() {
             <div>
               <h2 className="mb-6 font-medium text-black ">Legal</h2>
               <ul className="text-gray-500">
-                <li className="mb-2">
+                <li>
                   <a
                     href="privacy-policy"
                     className="font-normal hover:underline"
                   >
                     Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="font-normal hover:underline">
-                    Terms &amp; Conditions
                   </a>
                 </li>
               </ul>
@@ -67,17 +68,20 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a href="#" className="text-black">
+            <a href="mailto:info@datome.io" className="text-black">
               <svg
                 className="w-5 h-5 text-gray-500"
                 fill="currentColor"
-                viewBox="0 0 24 24"
+                viewBox="0 0 900 1000"
                 aria-hidden="true"
               >
-                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                <path d="M30 264C8.667 252-.667 238.667 2 224c1.333-9.333 10-14 26-14h846c25.333 0 32 10.667 20 32-5.333 9.333-13.333 16.667-24 22-9.333 4-73.333 38-192 102s-179.333 96.667-182 98c-10.667 6.667-26 10-46 10-18.667 0-34-3.333-46-10-2.667-1.333-63.333-34-182-98S39.333 268 30 264m850 100c13.333-6.667 20-3.333 20 10v368c0 10.667-5.667 21.333-17 32-11.333 10.667-22.333 16-33 16H50c-10.667 0-21.667-5.333-33-16-11.333-10.667-17-21.333-17-32V374c0-13.333 6.667-16.667 20-10l384 200c12 6.667 27.333 10 46 10s34-3.333 46-10l384-200" />
               </svg>
             </a>
-            <a href="#" className="text-black">
+            <a
+              href="https://www.linkedin.com/company/mangroviasolutions"
+              className="text-black"
+            >
               <svg
                 className="w-5 h-5 text-gray-500"
                 aria-hidden="true"
@@ -93,7 +97,7 @@ export default function Footer() {
                 <path d="M3 5.012H0V15h3V5.012Z" />
               </svg>
             </a>
-            <a href="#" className="text-black">
+            <a href="https://discord.gg/AT8DJJKFNw" className="text-black">
               <svg
                 className="w-6 h-6 text-gray-500"
                 aria-hidden="true"
