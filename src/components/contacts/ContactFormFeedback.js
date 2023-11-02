@@ -30,7 +30,7 @@ export default function ContactFormFeedback({
           isFeedbackVisible ? "opacity-100" : "opacity-0"
         }`}
       >
-        🫣 Ops.. error, retry later or email us at{" "}
+        🫣 Ops.. error,try again later or email us at{" "}
         <a href="mailto:info@datome.io">info@datome.io</a>
       </p>
     );
