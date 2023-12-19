@@ -24,18 +24,22 @@ export default function ProductInfo() {
           </svg>
           <div className="mx-auto max-w-5xl lg:py-16 lg:text-left">
             <h2 className="text-sm font-semibold text-primary uppercase">
-              Leave the tech to us
+              Harnessing the Power of REST APIs
             </h2>
             <p className="mt-6 text-xl lg:text-3xl lg:leading-10 font-black text-gray-100">
-              We understand that your expertise lies in your business, not
-              managing complex technology. That's where we come in. With Datome,
-              you have the power to build your own ecosystem with ease.
+              At the core of our seamless integration lies the simplicity and
+              effectiveness of our Generic REST APIs. These APIs serve as the
+              bridge between your systems and the world of blockchains.
             </p>
             <p className="mt-6 text-lg lg:text-2xl lg:leading-10 text-gray-100">
-              Whether it's managing processes, permissions, or setting rules,
-              our user-friendly editor empowers you to shape your digital world
-              without the need for coding expertise. <br></br>You focus on your
-              vision, we handle the technology.
+              But, what are Generic REST APIs?
+            </p>
+            <p className="mt-6 text-lg lg:text-2xl lg:leading-10 text-gray-100">
+              Our Generic REST APIs are standardized interfaces that allow your
+              applications to communicate with different blockchains in a
+              uniform way. Instead of grappling with the intricacies of
+              individual blockchain protocols, our APIs provide a consistent and
+              simplified method of interaction.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a href="#book-a-demo" className="btn bg-primary text-white">

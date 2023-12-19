@@ -8,34 +8,22 @@ import {
 export default function WhyUse() {
   const whyList = [
     {
-      name: "Supply chain management",
+      name: "Uniform Interface",
       description:
-        "Track every step of your goods' journey with a tamper-proof blockchain ledger.  Create a standardized system for stakeholders, fostering trust and coordination throughout your supply chain.",
+        "The beauty of our Generic REST APIs lies in their uniformity. You don't need to learn the specifics of each blockchain; instead, you can rely on a consistent interface that streamlines the integration process.",
       icon: CloudArrowUpIcon,
     },
     {
-      name: "Intellectual property certification",
+      name: "Reduced Development Time",
       description:
-        "Protect your intellectual property with Datome's robust certification system. Prevent unauthorized usage and establish the rightful owner of your intellectual assets.",
+        "By providing a standardized set of commands, our APIs significantly reduce the development time required for integrating with different blockchains. This efficiency allows you to focus on the unique aspects of your project rather than on the blockchain intricacies.",
       icon: ShieldCheckIcon,
     },
     {
-      name: "Audits",
+      name: "Flexibility",
       description:
-        "Map and secure the most  risk-prone aspects of your processes, providing invaluable insights into areas often subject to audits. Simplify the process of responding to third-party claims as you can provide a verifiable and tamper-proof record of your activities.",
+        "As your project evolves, the ease of our Generic REST APIs allows for seamless adjustments. Whether you're shifting to a different blockchain or expanding functionality, the flexibility of our APIs ensures a smooth transition.",
       icon: CheckBadgeIcon,
-    },
-    {
-      name: "Story telling",
-      description:
-        "Blockchain technology allows you to tell a compelling and verifiable story of your product's journey. Whether you're showcasing a product's development, features, or quality, Datome helps you narrate your product's story with confidence.",
-      icon: ChatBubbleBottomCenterTextIcon,
-    },
-    {
-      name: "Data-driven decision making",
-      description:
-        "Datome ensures that you can trust your data and processes, enabling confident, data-driven choices.",
-      icon: PresentationChartBarIcon,
     },
   ];
 
@@ -49,14 +37,10 @@ export default function WhyUse() {
                 So why
               </h2>
               <h2 className="mt-2 text-3xl tracking-tight text-gray-900 sm:text-4xl">
-                Why should you use Datome?
+                Why it’s easier?
               </h2>
               <p className="mt-6 lg:text-lg  text-gray-600">
-                Datome is a versatile platform designed to deliver benefits to
-                businesses across various industries, regardless of their size
-                or scale. While Datome's flexibility ensures that it can be
-                applied to any business, here are a few examples of areas where
-                Datome can make a substantial impact.
+                Versatility first.
               </p>
             </div>
             <div className="grid gap-8 col-span-2">

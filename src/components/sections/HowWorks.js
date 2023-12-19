@@ -1,53 +1,25 @@
 export default function HowWorks() {
   const howworks = [
     {
-      intro: "01. Start with a simple question",
-      title: "What is the core of your process?",
+      intro: "01. start with",
+      title: "Standardized Communication",
       description:
-        "In the first step, you identify the core element of your process. This could be a physical asset, such as a bag, or a digital asset, like a contract. The blue-print of this asset will be represented by what we call in Datome a Model, i.e. a JSON schema that describes all the characteristics and rules of the asset.",
+        "Our APIs abstract the complexities of various blockchain technologies, offering a uniform set of commands that can be easily understood and implemented..",
       image: "how1.jpg",
     },
     {
-      intro: "02. Match the traits of your data-flow",
-      title: "What describes your asset?",
+      intro: "02. add ingredients",
+      title: "Interoperability",
       description:
-        "Delve into the specific details that describe your asset. To do this, enrich your model with what we call properties. Properties are nothing more than the characteristics and data that describe the asset (e.g. the quantity or the type of material).",
+        "Whether you're working with Ethereum, Binance, Polygon, or other blockchains, our Generic REST APIs ensure interoperability, allowing you to seamlessly integrate your systems with the blockchain that best suits your project.",
       image: "how2.png",
     },
     {
-      intro: "03. Trace the path",
-      title: "What are the steps of your process?",
+      intro: "03. Go",
+      title: "Simplified Commands",
       description:
-        "Outline the sequence of actions that make up your process. Each action will be represented by a state. The total chain of your states corresponds to the rules of your workflow and will represent, in the end, the history of your supply chain.",
+        "With straightforward commands, such as reading block information, submitting transactions, or interacting with smart contracts, our APIs eliminate the need for extensive blockchain expertise. This simplicity translates to a faster and more efficient integration process.",
       image: "how3.png",
-    },
-    {
-      intro: "04. Manage the unpredictable",
-      title: "Are there steps in your process that are not fixed?",
-      description:
-        "Is your workflow also made up of unpredictable events or is the data describing your asset constantly evolving? Set up the ability to unfailingly describe any particularity of your process via Datome’s Events.",
-      image: "event.png",
-    },
-    {
-      intro: "05. Set relations",
-      title: "Are there other entities connected to your asset?",
-      description:
-        "Explore the relationships and connections between your asset and other entities within your ecosystem. Is your bag made up of different kinds of leather? This is what we call a relation.",
-      image: "relation.png",
-    },
-    {
-      intro: "06. Assign responsabilities",
-      title: "Who can do what?",
-      description:
-        "Determine who has access to your ecosystem and what actions they can perform. By setting the authorized groups, you create a secure and efficient environment for stakeholders to collaborate effectively.",
-      image: "how4.jpg",
-    },
-    {
-      intro: "07. Ready, set, go!",
-      title: "Start creating your assets",
-      description:
-        "Once you have everything set, you can start creating assets and having them go through the designed flow. For each asset, you get a customizable public web page that certifies the history of the changes and the rules that were followed.",
-      image: "how6.png",
     },
   ];
   return (
@@ -63,9 +35,9 @@ export default function HowWorks() {
                 How it works
               </h2>
               <p className="mt-2 pb-10 text-gray-600 ">
-                Curious about how Datome can transform your business operations?
-                Let's dive in and explore the process that turns your vision
-                into reality.
+                Curious about how ChainKpr can transform your business
+                operations? Let's dive in and explore the process that turns
+                your vision into reality.
               </p>
             </div>
           </div>

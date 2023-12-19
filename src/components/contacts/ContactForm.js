@@ -55,9 +55,9 @@ export default function ContactForm() {
   }
 
   return (
-    <div>
+    <div className="w-full max-w-lg">
       <form onSubmit={onSubmit} className="mt-10">
-        <div className="flex flex-col gap-8 max-w-md">
+        <div className="flex flex-col gap-8 ">
           <div className="relative z-0">
             <input
               type="text"

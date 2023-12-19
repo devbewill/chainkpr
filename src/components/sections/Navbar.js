@@ -60,11 +60,11 @@ export default function Navbar() {
       >
         <div className="flex lg:flex-1">
           <a href="/" className="flex -m-1.5 p-1.5">
-            <span className="sr-only">datome</span>
+            <span className="sr-only">Chainkpr</span>
             <img
-              src="/datome-black.svg"
+              src="/ck-logo.svg"
               className="mr-01 h-10 fill-black"
-              alt="datome Logo"
+              alt="chainkpr Logo"
             />
           </a>
         </div>
@@ -167,11 +167,11 @@ export default function Navbar() {
           <div className="flex justify-between">
             <div className="flex lg:flex-1">
               <a href="/" className="flex -m-1.5 p-1.5">
-                <span className="sr-only">datome</span>
+                <span className="sr-only">chainkpr</span>
                 <img
-                  src="/datome-black.svg"
+                  src="/ck-logo.svg"
                   className="mr-01 h-10 fill-black"
-                  alt="datome Logo"
+                  alt="chainkpr Logo"
                 />
               </a>
             </div>

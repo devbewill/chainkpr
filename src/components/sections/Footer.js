@@ -6,9 +6,9 @@ export default function Footer() {
           <div className="mb-6 md:mb-0 lg:w-1/3">
             <a href="./" className="flex items-center pb-5">
               <img
-                src="/datome-black.svg"
+                src="/ck-logo.svg"
                 className="mr-01 h-10 fill-black"
-                alt="datome Logo"
+                alt="chainkpr Logo"
               />
             </a>
             <p>
@@ -63,7 +63,7 @@ export default function Footer() {
           <span className="text-sm sm:text-center">
             © 2023{" "}
             <a href="https://datome.io" className="font-normal hover:underline">
-              Datome
+              Chainkpr
             </a>
             . All Rights Reserved.
           </span>

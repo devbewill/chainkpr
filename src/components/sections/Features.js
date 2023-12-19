@@ -1,35 +1,23 @@
 export default function Features() {
   const features = [
     {
-      name: "Personalized blockchain",
+      name: "Blockchain Empowerment",
       description:
-        "Datome empowers you to create a personalized blockchain process tailored to your specific business needs.",
+        "Each project comes with unique requirements that may demand different types of blockchains. Our API-driven approach ensures that your blockchain integration is not only powerful but also tailored to your project's distinct needs.",
       image: "1.png",
     },
     {
-      name: "Process optimization",
+      name: "Simplified Integration",
       description:
-        "Datome reduces errors and redundancies,  leading to increased productivity and cost savings.",
+        "Chainkeeper streamlines the integration of new smart contracts through its user-friendly REST API interface, simplifying complex processes and enhancing operational efficiency. Additionally, it provides a secure Custodian Wallet solution and supports Non-Custodian Interactions, ensuring that user data and transactions remain protected and compliant with industry standards.",
       image: "2.png",
     },
     {
-      name: "Stakeholder coordination",
+      name: "Flexibility",
       description:
-        "Datome  harmonizes stakeholder'scontributions to enhance collaboration and operational efficiency.",
+        "ChainKeeper provides the freedom to choose the blockchain that best suits your business requirements. Whether you're establishing a community-driven initiative or certifying crucial data, our platform adapts to diverse scenarios.",
       image: "3.png",
     },
-    {
-      name: "Compliance assurance",
-      description:
-        "Datome minimizes the risk of legal disputes and ensuring that your operations meet all requirements.",
-      image: "4.png",
-    },
-    // {
-    //   name: "Data-driven decision making",
-    //   description:
-    //     "Datome ensures that you can trust your data, enabling confident, data-driven choices.",
-    //   image: "5.png",
-    // },
   ];
 
   return (
@@ -39,10 +27,10 @@ export default function Features() {
           Features
         </h2> */}
         <h2 className="mt-2 text-xl lg:text-2xl md:mb-8">
-          Some things Datome can do for you
+          Some things ChainKpr can give you
         </h2>
 
-        <div className="mt-8 grid grid-cols-1 gap-2 md:mt-16 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid grid-cols-1 gap-2 md:mt-16 md:grid-cols-1 lg:grid-cols-3">
           {features.map((item) => (
             <div
               key={item.name}
@@ -51,7 +39,7 @@ export default function Features() {
               <img
                 alt={item.name}
                 src={`./features/${item.image}`}
-                className=" w-24 pt-6 pb-10 mx-auto"
+                className=" w-24 pt-6 pb-10  hue-rotate-90 mx-auto"
               />
               <div>
                 <h3 className="text-xl">{item.name}</h3>
