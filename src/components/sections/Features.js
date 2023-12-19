@@ -30,7 +30,7 @@ export default function Features() {
           Some things ChainKpr can give you
         </h2>
 
-        <div className="mt-8 grid grid-cols-1 gap-2 md:mt-16 md:grid-cols-1 lg:grid-cols-3">
+        <div className="mt-8 grid grid-cols-1 gap-10 md:mt-16 md:grid-cols-1 lg:grid-cols-3">
           {features.map((item) => (
             <div
               key={item.name}
