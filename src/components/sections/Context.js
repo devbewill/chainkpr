@@ -32,7 +32,7 @@ export default function Context() {
             <img
               alt="standard"
               src="ck-architecture.png"
-              className="-mt-20 shadow-2xl rounded-3xl"
+              className="lg:-mt-20 shadow-2xl rounded-3xl"
             />
           </div>
         </div>

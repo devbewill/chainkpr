@@ -25,7 +25,7 @@ export default function DatomePair() {
 
   return (
     <section className="whyBlockchain bg-black text-white">
-      <div className="mx-auto max-w-5xl lg:py-16 lg:text-left">
+      <div className="mx-auto max-w-5xl px-6 py-10 lg:py-16 lg:text-left">
         <h2 className="text-sm font-semibold text-primary uppercase">
           ChainKpr + Datome
         </h2>
