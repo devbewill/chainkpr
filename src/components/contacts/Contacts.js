@@ -8,9 +8,7 @@ export default function Contacts() {
       </h1>
       <div className="lg:flex flex-col mx-auto max-w-screen-xl pt-20 lg:py-20 md:px-6 gap-10 items-center ">
         <h1 className="my-5 text-xl text-black max-w-xl ">
-          Enjoy a fully functional{" "}
-          <span className="text-primary">30 days sandbox </span>so you can test
-          in self provisioning the features of Datome.
+          Contact us <span className="text-primary">now </span>
         </h1>
 
         <ContactForm></ContactForm>
