@@ -28,11 +28,11 @@ export default function Context() {
             </p>
           </div>
 
-          <div className="relative h-52 lg:h-full">
+          <div className="relative h-auto w-full lg:h-auto">
             <img
               alt="standard"
-              src="asset.jpg"
-              className="absolute max-w-xl lg:max-w-[140%] lg:-top-14 shadow-2xl rounded-3xl ring-2 ring-black"
+              src="ck-architecture.png"
+              className="-mt-20 shadow-2xl rounded-3xl"
             />
           </div>
         </div>

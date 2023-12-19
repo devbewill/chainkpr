@@ -22,36 +22,36 @@ export default function ContactForm() {
 
   async function onSubmit(event) {
     event.preventDefault();
-    setIsLoading(true);
+    // setIsLoading(true);
 
-    const datomeUrl = "https://trial.datome.io/api/signup";
+    // const datomeUrl = "https://trial.datome.io/api/signup";
 
-    try {
-      const response = await fetch(datomeUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      setFormFeedback("success");
-      setIsFeedbackVisible(true);
+    // try {
+    //   const response = await fetch(datomeUrl, {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(formData),
+    //   });
+    //   setFormFeedback("success");
+    //   setIsFeedbackVisible(true);
 
-      if (!response.ok) {
-        throw new Error("Failed to submit the data. Please try again.");
-      }
-    } catch (error) {
-      setFormFeedback("error");
-      setIsFeedbackVisible(true);
-      console.error(error);
-    } finally {
-      setFormData({
-        name: "",
-        email: "",
-        info: "",
-      });
-      setIsLoading(false);
-    }
+    //   if (!response.ok) {
+    //     throw new Error("Failed to submit the data. Please try again.");
+    //   }
+    // } catch (error) {
+    //   setFormFeedback("error");
+    //   setIsFeedbackVisible(true);
+    //   console.error(error);
+    // } finally {
+    //   setFormData({
+    //     name: "",
+    //     email: "",
+    //     info: "",
+    //   });
+    //   setIsLoading(false);
+    // }
   }
 
   return (
@@ -104,7 +104,7 @@ export default function ContactForm() {
           disabled={isLoading}
           className="btn bg-black text-white  hover:bg-primary"
         >
-          {isLoading ? "sending..." : "Start a Trial"}
+          {isLoading ? "sending..." : "Submit"}
         </button>
       </form>
 

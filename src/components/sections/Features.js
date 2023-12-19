@@ -4,19 +4,19 @@ export default function Features() {
       name: "Blockchain Empowerment",
       description:
         "Each project comes with unique requirements that may demand different types of blockchains. Our API-driven approach ensures that your blockchain integration is not only powerful but also tailored to your project's distinct needs.",
-      image: "1.png",
+      image: "empower.svg",
     },
     {
       name: "Simplified Integration",
       description:
         "Chainkeeper streamlines the integration of new smart contracts through its user-friendly REST API interface, simplifying complex processes and enhancing operational efficiency. Additionally, it provides a secure Custodian Wallet solution and supports Non-Custodian Interactions, ensuring that user data and transactions remain protected and compliant with industry standards.",
-      image: "2.png",
+      image: "integration.svg",
     },
     {
       name: "Flexibility",
       description:
         "ChainKeeper provides the freedom to choose the blockchain that best suits your business requirements. Whether you're establishing a community-driven initiative or certifying crucial data, our platform adapts to diverse scenarios.",
-      image: "3.png",
+      image: "flex.svg",
     },
   ];
 
@@ -39,7 +39,7 @@ export default function Features() {
               <img
                 alt={item.name}
                 src={`./features/${item.image}`}
-                className=" w-24 pt-6 pb-10  hue-rotate-90 mx-auto"
+                className=" w-24 pt-6 pb-10 mx-auto"
               />
               <div>
                 <h3 className="text-xl">{item.name}</h3>

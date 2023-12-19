@@ -41,11 +41,6 @@ export default function ProductInfo() {
               individual blockchain protocols, our APIs provide a consistent and
               simplified method of interaction.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-              <a href="#book-a-demo" className="btn bg-primary text-white">
-                Book a demo
-              </a>
-            </div>
           </div>
         </div>
       </div>

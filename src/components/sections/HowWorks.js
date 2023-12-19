@@ -1,25 +1,25 @@
 export default function HowWorks() {
   const howworks = [
     {
-      intro: "01. start with",
+      intro: "01. Call",
       title: "Standardized Communication",
       description:
         "Our APIs abstract the complexities of various blockchain technologies, offering a uniform set of commands that can be easily understood and implemented..",
-      image: "how1.jpg",
+      image: "communication.png",
     },
     {
-      intro: "02. add ingredients",
+      intro: "02. Rest API",
       title: "Interoperability",
       description:
         "Whether you're working with Ethereum, Binance, Polygon, or other blockchains, our Generic REST APIs ensure interoperability, allowing you to seamlessly integrate your systems with the blockchain that best suits your project.",
-      image: "how2.png",
+      image: "api.png",
     },
     {
-      intro: "03. Go",
+      intro: "03. Orchestrate",
       title: "Simplified Commands",
       description:
         "With straightforward commands, such as reading block information, submitting transactions, or interacting with smart contracts, our APIs eliminate the need for extensive blockchain expertise. This simplicity translates to a faster and more efficient integration process.",
-      image: "how3.png",
+      image: "commands.png",
     },
   ];
   return (

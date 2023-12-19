@@ -151,8 +151,8 @@ export default function Navbar() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#start-trial" className="btn ring-2 ring-black ">
-            Start trial <span aria-hidden="true">&rarr;</span>
+          <a href="#contacts" className="btn ring-2 ring-black ">
+            Contact us <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>

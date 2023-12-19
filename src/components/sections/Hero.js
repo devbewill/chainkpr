@@ -18,7 +18,7 @@ export default function Hero() {
               <p className="mt-5 lg:text-2xl leading-6 max-w-3xl text-gray-700 ">
                 Choose the optimal blockchain solution effortlessly.
               </p>
-              <div className="flex-col mt-16 flex items-center  gap-6 lg:flex-row">
+              {/* <div className="flex-col mt-16 flex items-center  gap-6 lg:flex-row">
                 <a href="#start-trial" className="btn  bg-black text-white">
                   Try now for free
                 </a>
@@ -28,7 +28,7 @@ export default function Hero() {
                 >
                   <span aria-hidden="true">Book a demo →</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

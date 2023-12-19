@@ -52,8 +52,8 @@ export default function DatomePair() {
           <li>Strategic Blockchain Utilization</li>
         </ul>
         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-          <a href="#book-a-demo" className="btn bg-primary text-white">
-            Book a demo
+          <a href="http://www.datome.io" className="btn bg-primary text-white">
+            Discover Datome
           </a>
         </div>
       </div>

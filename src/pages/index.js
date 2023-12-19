@@ -8,6 +8,7 @@ import Context from "@/components/sections/Context";
 import WhyUse from "@/components/sections/WhyUse";
 import DatomePair from "@/components/sections/DatomePair";
 import Contacts from "@/components/contacts/Contacts";
+import ExtraModules from "@/components/sections/ExtraModules";
 
 export default function Home() {
   return (
@@ -19,13 +20,13 @@ export default function Home() {
         <link rel="icon" type="image/svg+xml" href="favicon.svg" />
         <link rel="icon" type="image/png" href="favicon.png" />
       </Head>
-      {/* <Announcement></Announcement> */}
       <Layout>
         <Hero></Hero>
         <Context></Context>
         <Features></Features>
         <ProductInfo></ProductInfo>
         <HowWorks></HowWorks>
+        <ExtraModules></ExtraModules>
         <WhyUse></WhyUse>
         <DatomePair></DatomePair>
         <Contacts></Contacts>
